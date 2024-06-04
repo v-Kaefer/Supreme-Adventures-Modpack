@@ -15,6 +15,9 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
+    
+    - name: Pip upgrade
+      run: pip install --upgrade pip
 
     - name: Set up Python
       uses: actions/setup-python@v5
@@ -29,6 +32,6 @@ jobs:
 
     - name: Run repeat check script
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.MODS_NAME_REP }}
       run: python .github/scripts/check_repeats.py
 

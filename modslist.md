@@ -6,7 +6,6 @@
 - REI
 - EMI
 - NEI
-- JEI
 
 
 ### Maps
@@ -190,6 +189,15 @@
 - Epic Fight
 - Forbidden & Arcanus
 - Industrial Machines Souls [+ Silent Warden]
+- Minefactory Reloaded
+- GregTech
+- Industrial Upgrade
+- Item Recycler
+- Magneticraft
+- Sinytra Connector
+
+
+
 
 
 ### Storage

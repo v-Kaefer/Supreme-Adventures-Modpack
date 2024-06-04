@@ -17,6 +17,11 @@ names = [
     "Map Atlases",
     "FTB Chunks",
     "JEI",
+    "REI",
+    "EMI",
+    "NEI",
+    "JourneyMap",
+    "Voxel's Map",
 ]
 
 repetitions = check_repetitions(names)

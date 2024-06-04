@@ -6,7 +6,7 @@
 - REI
 - EMI
 - NEI
-- JEI
+- 
 - JIE
 - IJEI
 
@@ -77,7 +77,6 @@
 - Universal Graves
 
 
-
 ### Quality of Life
 
 - Controlling
@@ -122,7 +121,6 @@
 - ScreenShot Viewer
 - No resourcepack Warnings
 - Better Mount HUD
-- 
 
 
 ## Wants
@@ -141,7 +139,6 @@
 - Industrial Revolution
 - Modular Powersuits
 - Cyberware
-- Industrial Foregoing
 - Chisel & Bits
 - Oh The Biomes You Go
 - Carpenter Blocks
@@ -181,11 +178,9 @@
 - Ender IO
 - MystCraft
 - PneumaticCraft
-- Chisel
 - Nature's Compass
 - OpenBlocks
 - Quark
-- Corpse
 - RF Tools
 - Compact Machines
 - Reliquary

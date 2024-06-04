@@ -1,1 +1,2 @@
-.github\workflows\Repetition-Verify.yaml
+.github/workflows/Repetition-Verify.yaml
+test/names_repetition/verify_rep_names.py

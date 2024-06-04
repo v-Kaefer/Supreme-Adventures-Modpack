@@ -4,15 +4,20 @@ import os
 
 def find_repeats(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
-        content = file.read()
+        content = file.readlines()
 
-    # Extract all mod names
-    mod_names = re.findall(r'- ([\w\s\[\]\?]+)', content)
+    # Extract all mod names with their line numbers
+    mod_names = []
+    for line_number, line in enumerate(content, start=1):
+        matches = re.findall(r'- ([\w\s\[\]\?]+)', line)
+        for match in matches:
+            mod_names.append((match.strip(), line_number))
 
     # Find duplicates
     name_count = defaultdict(list)
-    for index, name in enumerate(mod_names):
-        name_count[name.strip()].append(index + 1)
+    for name, line_number in mod_names:
+        name_count[name].append(line_number)
+
 
     # Report duplicates
     duplicates = {name: lines for name, lines in name_count.items() if len(lines) > 1}
@@ -32,6 +37,11 @@ def main():
         if summary_file:
             with open(summary_file, 'a') as summary:
                 summary.write(output)
+        
+        # Create annotations for GitHub Actions
+        for name, lines in duplicates.items():
+            for line in lines:
+                print(f"::error file={file_path},line={line}::{name} is repeated")
         
         exit(1)  # Exit with error code to fail the action
     else:

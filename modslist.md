@@ -6,6 +6,9 @@
 - REI
 - EMI
 - NEI
+- JEI
+- JIE
+- IJEI
 
 
 ### Maps

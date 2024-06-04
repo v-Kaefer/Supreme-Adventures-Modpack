@@ -16,6 +16,9 @@ jobs:
 
     - name: Install dependencies [Collections]
       run: pip install collections-extended
+    
+    - name: Install dependencies [Requests]
+      run: pip install requests
 
 
     - name: Run Python script

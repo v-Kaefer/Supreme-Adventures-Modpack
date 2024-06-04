@@ -36,7 +36,7 @@ if repetitions:
     # Fetch all pull requests
     url = "https://api.github.com/repos/v-Kaefer/Supreme-Adventures-Modpack/pulls"
     headers = {
-        "Authorization": f"Bearer {os.getenv('GITHUB_TOKEN')}",
+        "Authorization": f"Bearer {os.getenv('MODS_NAME_REP')}",
         "Accept": "application/vnd.github.v3+json"
     }
     response = requests.get(url, headers=headers)

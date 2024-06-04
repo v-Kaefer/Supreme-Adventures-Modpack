@@ -1,0 +1,28 @@
+name: Check for Repeated Names
+
+on:
+  push:
+    paths:
+      - 'modslist.md'
+  pull_request:
+    paths:
+      - 'modslist.md'
+
+jobs:
+  check-repeats:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: pip install pyyaml
+
+    - name: Run repeat check script
+      run: python .github/scripts/check_repeats.py

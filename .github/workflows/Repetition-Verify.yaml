@@ -14,32 +14,10 @@ jobs:
       with:
         python-version: 3.8
 
+    - name: Install dependencies [Collections]
+      run: pip install collections-extended
+
+
     - name: Run Python script
-      run: |
-        import collections
-
-        def check_repetitions(names):
-            counter = collections.Counter(names)
-            repetitions = [name for name, count in counter.items() if count > 1]
-            return repetitions
-
-        names = [
-            "JEI",
-            "REI",
-            "EMI",
-            "NEI",
-            "JourneyMap",
-            "Voxel's Map",
-            "Antique Atlas",
-            "Map Atlases",
-            "FTB Chunks",
-        ]
-
-        repetitions = check_repetitions(names)
-
-        if repetitions:
-            print("Repetitions found:")
-            for name in repetitions:
-                print(name)
-        else:
-            print("No repetitions found.")
+      run: python ./test/names_repetition/verify_rep_names.py
+            

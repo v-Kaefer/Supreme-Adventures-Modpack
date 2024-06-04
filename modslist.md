@@ -1,3 +1,16 @@
+### Interpretation
+
+* : "Main" Mods
+- : "Sub" Mods / Addons
+
+
+## Metodology:
+
+1 - Gather the main mods stable latest releases and mc version.
+2 - Gather the sub mods/addons stable latest release and mc version.
+3 - Identify middle ground for most mods/addons.
+
+
 ## Recommended:
 
 ### Item/Recipe Viewers
@@ -227,4 +240,7 @@
 - Technic SSP
 - Tekkit
 - Tekkit Classic
-- 
+
+
+# Forge, CurseForge, Fabric, Quilt, NeoForge
+

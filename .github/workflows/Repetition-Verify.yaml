@@ -23,4 +23,6 @@ jobs:
 
     - name: Run Python script
       run: python ./test/names_repetition/verify_rep_names.py
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
             

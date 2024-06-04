@@ -1,5 +1,6 @@
 import collections
 import requests
+import os
 
 def check_repetitions(names):
     counter = collections.Counter(names)
@@ -32,20 +33,41 @@ if repetitions:
     for name in repetitions:
         pull_request_comment += f"- {name}\n"
 
-    # Make a POST request to the GitHub API to create a pull request comment
-    url = "https://api.github.com/repos/{owner}/{repo}/issues/{issue_number}/comments"
+    # Fetch all pull requests
+    url = "https://api.github.com/repos/v-Kaefer/Supreme-Adventures-Modpack/pulls"
     headers = {
-        "Authorization": "Bearer {access_token}",
+        "Authorization": f"Bearer {os.getenv('MODS_NAME_REP')}",
         "Accept": "application/vnd.github.v3+json"
     }
-    data = {
-        "body": pull_request_comment
-    }
-    response = requests.post(url, headers=headers, json=data)
+    response = requests.get(url, headers=headers)
+    pull_requests = response.json()
 
-    if response.status_code == 201:
-        print("Pull request comment created successfully.")
-    else:
-        print("Failed to create pull request comment.")
-else:
-    print("No repetitions found.")
+    # For each pull request
+    for pr in pull_requests:
+        # Get the pull request number
+        issue_number = pr["number"]
+
+        # Perform your check for repetitions
+        repetitions = check_repetitions(names)
+
+        if repetitions:
+            # Create a pull request comment with the repeated names
+            pull_request_comment = f"Repetitions found:\n\n"
+            for name in repetitions:
+                pull_request_comment += f"- {name}\n"
+
+            # Make a POST request to the GitHub API to create a pull request comment
+            url = f"https://api.github.com/repos/v-Kaefer/Supreme-Adventures-Modpack/issues/{issue_number}/comments"
+            data = {
+                "body": pull_request_comment
+            }
+            response = requests.post(url, headers=headers, json=data)
+
+            if response.status_code == 201:
+                print(f"Pull request comment created successfully for PR #{issue_number}.")
+            else:
+                print(f"Failed to create pull request comment for PR #{issue_number}.")
+        else:
+            print(f"No repetitions found for PR #{issue_number}.")
+
+print(response.json())

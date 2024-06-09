@@ -21,9 +21,13 @@ jobs:
 
         - name: Check branch name
           run: |
-                if [[ ${{ github.ref }} == 'main' && ${{ github.head_ref }} != 'dev' ]]; then
-                  echo "Only the 'dev' branch can create a pull request to 'main'"
-                  exit 1
+                if [[ "${{ github.ref }}" == "refs/heads/main" ]]; then
+                  if [[ "${{ github.head_ref }}" != "dev" ]]; then
+                    echo "Only the 'dev' branch can create a pull request to 'main'"
+                    exit 1
+                  fi
+                else
+                  echo "Target is not 'main', skipping check."
                 fi
 
         - name: Add comment if branch check fails on pull request

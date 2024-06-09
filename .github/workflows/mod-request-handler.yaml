@@ -3,6 +3,8 @@ name: Handle Mod Requests
 on:
   issues:
     types: [opened, edited]
+  repository_dispatch:
+    types: [mod-request-handler]
 
 jobs:
   processModRequest:

@@ -1,9 +1,13 @@
 name: Only Dev to Main
 
 on:
-    pull_request_target:
-        branches:
-            - main
+  pull_request:
+    types: [opened, synchronize, reopened]
+    branches:
+      - dev
+  pull_request_target:
+      branches:
+          - main
 
 jobs:
     only-dev-to-main:
@@ -11,6 +15,12 @@ jobs:
       steps:
         - name: Checkout code
           uses: actions/checkout@v4
+
+        - name: Debug GitHub context
+          run: |
+                echo "GITHUB_REF: ${{ github.ref }}"
+                echo "GITHUB_HEAD_REF: ${{ github.head_ref }}"
+                echo "GITHUB_BASE_REF: ${{ github.base_ref }}"
 
         - name: Check branch name
           run: |

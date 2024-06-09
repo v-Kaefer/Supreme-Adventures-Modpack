@@ -1,4 +1,4 @@
-name: Mod Addon Classifier
+name: Mods Classifier
 
 on:
   push:
@@ -24,8 +24,8 @@ jobs:
     - name: Install dependencies
       run: pip install pyyaml
 
-    - name: Run ModAddonClassifier
-      run: python .github/scripts/mod_addon_classifier.py
+    - name: Run ModsClassifier Python Script
+      run: python .github/scripts/mods_classifier.py
 
     - name: Output results
       run: |

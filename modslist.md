@@ -33,7 +33,7 @@
 ### Performance
 
 - Sodium [Fabric]
-- Embeddium [Forge]
+* Embeddium [1.0, v1_20, FORGE]
 - Lithium []
 - Canary [Fabric]
 - Roadrunner [Forge]
@@ -82,7 +82,7 @@
 
 ### Death
 
-- Gravestone
+* Gravestone [0.0, v1.20, FORGE]
 - Corpse
 - Universal Graves
 

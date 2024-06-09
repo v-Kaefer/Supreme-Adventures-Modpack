@@ -1,0 +1,37 @@
+name: Handle Mod Requests
+
+on:
+  issues:
+    types: [opened, edited]
+
+jobs:
+  processModRequest:
+    runs-on: ubuntu-latest
+    if: |
+        contains(github.event.issue.labels.*.name, ':sparkles: mod request')
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: pip install requests
+
+    - name: Process Mod Request
+      env:
+        CURSEFORGE_API_KEY: ${{ secrets.CURSEFORGE_API_KEY }}
+      run: |
+        echo "${{ github.event.issue.body }}" > issue_body.txt
+        python .github/scripts/mod_request_handler.py "$(cat issue_body.txt)"
+
+    - name: Commit changes
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git add modslist.json votes.json
+        git commit -m 'Update mod list and votes'
+        git push

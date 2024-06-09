@@ -1,0 +1,49 @@
+name: Main Workflow
+
+on:
+  push:
+    branches:
+      - main
+      - dev
+
+jobs:
+  trigger-workflows:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Trigger Update JSON Data Workflow
+      run: |
+        echo "Triggering Update JSON Data Workflow..."
+        curl -X POST -H "Accept: application/vnd.github.v3+json" \
+        -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+        https://api.github.com/repos/${{ github.repository }}/actions/workflows/update-json-data.yaml/dispatches \
+        -d '{"ref":"main"}'
+
+    - name: Wait for Update JSON Data Workflow
+      run: |
+        echo "Waiting for Update JSON Data Workflow to complete..."    
+        sleep 60  # Adjust the sleep time as needed
+
+    - name: Trigger Mod Request Handler Workflow
+      run: |
+        echo "Triggering Mod Request Handler Workflow..."
+        curl -X POST -H "Accept: application/vnd.github.v3+json" \
+        -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+        https://api.github.com/repos/${{ github.repository }}/actions/workflows/mod-request-handler.yaml/dispatches \
+        -d '{"ref":"main"}'
+
+    - name: Wait for Mod Request Handler Workflow
+      run: |
+        echo "Waiting for Mod Request Handler Workflow to complete..."
+        sleep 60  # Adjust the sleep time as needed
+
+    - name: Trigger Mods Classifier Workflow
+      run: |
+        echo "Triggering Mods Classifier Workflow..."
+        curl -X POST -H "Accept: application/vnd.github.v3+json" \
+        -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+        https://api.github.com/repos/${{ github.repository }}/actions/workflows/mods-classifier.yaml/dispatches \
+        -d '{"ref":"main"}'

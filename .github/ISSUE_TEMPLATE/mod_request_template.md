@@ -1,7 +1,7 @@
 ---
 name: Mod Request
 about: Suggest a mod to be added to the modpack
-title: "[MOD REQUEST] "
+title: "[MOD REQUEST] <Mod Name>"
 labels: :sparkles: mod request
 assignees: ''
 
@@ -18,3 +18,6 @@ assignees: ''
 
 **Additional Notes**:
 <!-- Any additional notes or comments -->
+
+**Requested By**:
+<!-- Your GitHub username -->

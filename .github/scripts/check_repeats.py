@@ -18,6 +18,7 @@ def find_repeats(file_path):
     for name, line_number in mod_names:
         name_count[name].append(line_number)
 
+
     # Report duplicates
     duplicates = {name: lines for name, lines in name_count.items() if len(lines) > 1}
     return duplicates

@@ -1,0 +1,39 @@
+name: Only Dev to Main
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+    only-dev-to-main:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout code
+          uses: actions/checkout@v4
+
+        - name: Debug GitHub context
+          run: |
+                echo "GITHUB_REF: ${{ github.ref }}"
+                echo "GITHUB_HEAD_REF: ${{ github.head_ref }}"
+                echo "GITHUB_BASE_REF: ${{ github.base_ref }}"
+
+        - name: Check branch name
+          run: |
+                if [[ ${{ github.base_ref }} == 'main' && ${{ github.head_ref }} != 'dev' ]]; then
+                  echo "Only the 'dev' branch can create a pull request to 'main'"
+                  exit 1
+                fi
+
+        - name: Add comment if branch check fails
+          if: failure()
+          uses: actions/github-script@v7
+          with:
+              script: |
+                const { context } = require('@actions/github');
+                const issue_number = context.payload.pull_request.number;
+                const errorMessage = "Only the 'dev' branch can create a pull request to 'main'";
+                await github.issues.createComment({
+                    ...context.repo,
+                    issue_number,
+                    body: errorMessage
+                });

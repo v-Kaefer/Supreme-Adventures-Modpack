@@ -1,3 +1,16 @@
+### Interpretation
+
+* : "Main" Mods
+- : "Sub" Mods / Addons
+
+
+## Metodology:
+
+1 - Gather the main mods stable latest releases and mc version.
+2 - Gather the sub mods/addons stable latest release and mc version.
+3 - Identify middle ground for most mods/addons.
+
+
 ## Recommended:
 
 ### Item/Recipe Viewers
@@ -6,9 +19,6 @@
 - REI
 - EMI
 - NEI
-- 
-- JIE
-- IJEI
 
 
 ### Maps
@@ -23,7 +33,7 @@
 ### Performance
 
 - Sodium [Fabric]
-- Embeddium [Forge]
+* Embeddium [1.0, v1_20, FORGE]
 - Lithium []
 - Canary [Fabric]
 - Roadrunner [Forge]
@@ -72,7 +82,7 @@
 
 ### Death
 
-- Gravestone
+* Gravestone [0.0, v1.20, FORGE]
 - Corpse
 - Universal Graves
 
@@ -192,6 +202,15 @@
 - Epic Fight
 - Forbidden & Arcanus
 - Industrial Machines Souls [+ Silent Warden]
+- Minefactory Reloaded
+- GregTech
+- Industrial Upgrade
+- Item Recycler
+- Magneticraft
+- Sinytra Connector
+
+
+
 
 
 ### Storage
@@ -221,4 +240,7 @@
 - Technic SSP
 - Tekkit
 - Tekkit Classic
-- 
+
+
+# Forge, CurseForge, Fabric, Quilt, NeoForge
+

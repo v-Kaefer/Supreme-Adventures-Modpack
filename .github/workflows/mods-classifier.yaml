@@ -4,11 +4,11 @@ on:
   push:
     branches:
       - main
-      - dev
   pull_request:
     branches:
       - main
-      - dev
+  repository_dispatch:
+    types: [mods-classifier]
 
 jobs:
   classify-mods-addons:

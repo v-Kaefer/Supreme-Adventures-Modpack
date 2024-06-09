@@ -1,8 +1,13 @@
 name: Only Dev to Main
 
 on:
-  pull_request:
+  pull_request_target:
+    branches:
+      - main
+      - dev
     types: [opened, synchronize, reopened]
+    
+
 
 jobs:
     only-dev-to-main:
@@ -19,7 +24,7 @@ jobs:
 
         - name: Check branch name
           run: |
-                if [[ ${{ github.base_ref }} == 'main' && ${{ github.head_ref }} != 'dev' ]]; then
+                if [[ ${{ github.base_ref }} == 'dev' && ${{ github.head_ref }} != 'test' ]]; then
                   echo "Only the 'dev' branch can create a pull request to 'main'"
                   exit 1
                 fi
@@ -29,11 +34,14 @@ jobs:
           uses: actions/github-script@v7
           with:
               script: |
-                const { context } = require('@actions/github');
+                const { context, github } = require('@actions/github');
                 const issue_number = context.payload.pull_request.number;
+                const comment = process.env.COMMENT;
                 const errorMessage = "Only the 'dev' branch can create a pull request to 'main'";
                 await github.issues.createComment({
                     ...context.repo,
                     issue_number,
                     body: errorMessage
                 });
+          env:
+            COMMENT: ${{ steps.check_branch.outputs.comment }}

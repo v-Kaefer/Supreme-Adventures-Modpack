@@ -2,7 +2,7 @@ import re
 import json
 import os
 
-class ModAddonClassifier:
+class ModsClassifier:
 
     class Type:
         MOD = "MOD"
@@ -28,7 +28,7 @@ class ModAddonClassifier:
 
     class Mod:
         def __init__(self, name, version, mc_version, modloader):
-            self.type = ModAddonClassifier.Type.MOD
+            self.type = ModsClassifier.Type.MOD
             self.name = name
             self.version = version
             self.mc_version = mc_version
@@ -45,7 +45,7 @@ class ModAddonClassifier:
 
     class Addon:
         def __init__(self, name, version, mc_version, modloader):
-            self.type = ModAddonClassifier.Type.ADDON
+            self.type = ModsClassifier.Type.ADDON
             self.name = name
             self.version = version
             self.mc_version = mc_version
@@ -92,6 +92,7 @@ class ModAddonClassifier:
 
                     mod = self.Mod(name, version, mc_ver, modloader)
                     self.mods[name] = mod
+                    print(f"Parsed mod: {mod.to_dict()}")  # Debug statement
 
                 elif sub_addon_match:
                     name = sub_addon_match.group(1).strip()
@@ -101,6 +102,7 @@ class ModAddonClassifier:
 
                     addon = self.Addon(name, version, mc_ver, modloader)
                     self.addons[name] = addon
+                    print(f"Parsed addon: {addon.to_dict()}")  # Debug statement
 
     def parse_mc_version(self, value):
         try:
@@ -140,7 +142,8 @@ class ModAddonClassifier:
         json_data = self.read_json_file()
         self.update_json_data(json_data)
         self.write_json_file(json_data)
+        print(f"Updated JSON data: {json_data}")  # Debug statement
 
 if __name__ == "__main__":
-    classifier = ModAddonClassifier("modslist.md", "modslist.json")
+    classifier = ModsClassifier("modslist.md", "modslist.json")
     classifier.run()

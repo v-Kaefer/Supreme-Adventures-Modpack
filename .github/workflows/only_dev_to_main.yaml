@@ -1,13 +1,11 @@
 name: Only Dev to Main
 
 on:
-  pull_request:
-    types: [opened, synchronize, reopened]
-    branches:
-      - dev
   pull_request_target:
-      branches:
-          - main
+    branches:
+      - main
+    types: [opened, synchronize, reopened]
+    
 
 jobs:
     only-dev-to-main:
@@ -24,7 +22,7 @@ jobs:
 
         - name: Check branch name
           run: |
-                if [[ ${{ github.ref }} != 'refs/heads/dev' ]]; then
+                if [[ ${{ github.base_ref }} == 'main' && ${{ github.head_ref }} != 'dev' ]]; then
                   echo "Only the 'dev' branch can create a pull request to 'main'"
                   exit 1
                 fi

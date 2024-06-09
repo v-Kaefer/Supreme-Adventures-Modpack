@@ -2,6 +2,7 @@ import json
 import os
 import requests
 import logging
+from cfapi_integration import CurseForgeAPI
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -62,24 +63,13 @@ class ModRequestHandler:
         except requests.RequestException as e:
             logging.error(f"Error fetching mod details from CurseForge: {e}")
 
-class CurseForgeAPI:
-    def __init__(self):
-        self.api_key = os.getenv('CURSEFORGE_API_KEY')
-        self.base_url = 'https://api.curseforge.com'
-
-    def search_mods(self, mod_name):
-        headers = {'x-api-key': self.api_key}
-        response = requests.get(f"{self.base_url}/v1/mods/search?gameId=432&searchFilter={mod_name}", headers=headers)
-        response.raise_for_status()
-        return response.json()
-
-    def get_mod_details(self, mod_id):
-        headers = {'x-api-key': self.api_key}
-        response = requests.get(f"{self.base_url}/v1/mods/{mod_id}", headers=headers)
-        response.raise_for_status()
-        return response.json()
-
 # Example usage
 if __name__ == "__main__":
+    import sys
+    if len(sys.argv) != 2:
+        logging.error("Usage: python mod_request_handler.py <mod_name>")
+        sys.exit(1)
+
+    mod_name = sys.argv[1]
     handler = ModRequestHandler(".github/scripts/modslist.json")
-    handler.handle_mod_request("Sodium")
+    handler.handle_mod_request(mod_name)

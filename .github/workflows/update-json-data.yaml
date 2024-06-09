@@ -4,8 +4,8 @@ on:
   push:
     branches:
       - main
-  schedule:
-    - cron: '*/30 * * * *'  # Run every 30 minutes
+  repository_dispatch:
+    types: [update-json-data]
 
 jobs:
   update-json:
@@ -16,7 +16,7 @@ jobs:
       uses: actions/checkout@v4
 
     - name: Set up Python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v5
       with:
         python-version: '3.x'
 

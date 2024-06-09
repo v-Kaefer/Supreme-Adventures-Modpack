@@ -1,9 +1,13 @@
 name: Only Dev to Main
 
 on:
-    pull_request_target:
-        branches:
-            - main
+  pull_request:
+    types: [opened, synchronize, reopened]
+    branches:
+      - dev
+  pull_request_target:
+      branches:
+          - main
 
 jobs:
     only-dev-to-main:
@@ -27,7 +31,7 @@ jobs:
 
         - name: Add comment if branch check fails
           if: failure()
-          uses: actions/github-script@v6
+          uses: actions/github-script@v7
           with:
               script: |
                 const { context } = require('@actions/github');

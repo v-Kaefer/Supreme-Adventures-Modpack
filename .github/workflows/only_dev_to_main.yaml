@@ -21,8 +21,8 @@ jobs:
 
         - name: Check branch name
           run: |
-                if [[ ${{ github.base_ref }} == 'main' && ${{ github.head_ref }} != 'dev' ]]; then
-                  echo "Only the 'dev' branch can create a pull request to 'main'"
+                if ! [[ ${{ github.base_ref }} == 'main' && ${{ github.head_ref }} == 'dev' ]]; then
+                  echo "Error: Only pull requests from 'dev' to 'main' are allowed."
                   exit 1
                 fi
 

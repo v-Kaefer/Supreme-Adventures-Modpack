@@ -1,0 +1,6 @@
+{
+    "votes": {
+      "mod_id_1": ["user1", "user2"],
+      "mod_id_2": ["user3"]
+    }
+  }

@@ -18,8 +18,8 @@ body:
   -  type: checkboxes
      id: mods_request
      attributes:
-      label: Mod Request
-      description: I understand that this is a request and not a guarantee that the mod will be added to the modpack
+      label: Mod Request Agreement
+      description: I understand that this is a request and not a guarantee that the mod will be added to the modpack.
       options:
         - label: 'I understand'
           required: true
@@ -27,8 +27,8 @@ body:
   - type: checkboxes
     id: mods_votes
     attributes:
-      label: Mod Request
-      description: I understand that this is a request and not a guarantee that the mod will be added to the modpack
+      label: Mod Voting Agreement
+      description: I understand that if this mod is already in the mods list, I can vote for it by creating a new request.
       options:
         - label: 'I understand'
           required: true
@@ -37,12 +37,21 @@ body:
     id: mod_link
     attributes:
       label: Mod Link
-      description: A link to where the mod can be downloaded or more information can be found
-      placeholder: https://example.com/mod
+      description: A link to where the mod can be downloaded or more information can be found.
+      placeholder: https://appliedenergistics.org
     validations:
       required: true
 
   - type: textarea
+    id: mod_cfapi_link
+    attributes:
+      label: Mod CurseForge Link
+      description: A link to the CurseForge repository where the mod can be downloaded or more information can be found.
+      placeholder: https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2
+    validations:
+      required: true
+
+  - type: input
     id: mod_version
     attributes:
       label: Mod Version
@@ -53,8 +62,8 @@ body:
   - type: dropdown
     id: mc_version
     attributes:
-      label: Mod Version
-      description: The version of the Minecraft you're playing
+      label: Minecraft Version
+      description: The version of Minecraft you wish to play with this mod.
       multiple: false
       options:
         - '1.12.2'
@@ -75,7 +84,7 @@ body:
     id: why
     attributes:
       label: Why?
-      description: Explain why you think this mod should be included in the modpack
+      description: Explain why you think this mod should be included in the modpack or why you want to play with it.
       placeholder: This mod adds a lot of new content to the game and enhances the player experience
     validations:
       required: true

@@ -1,7 +1,9 @@
 name: Only Dev to Main
 
 on:
-  pull_request_target:
+  pull_request:
+    branches:
+      - main
     types: [opened, synchronize, reopened]
 
 jobs:
@@ -34,7 +36,7 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            const commentMessage = "Error: You shall not create a pull request to 'main'!";
+            const commentMessage = "Error: Only PRs from the 'dev' branch can be merged into 'main'!";
             const prContext = github.context;
             const { owner, repo, number } = prContext.issue;
             const octokit = github.getOctokit(process.env.GITHUB_TOKEN);

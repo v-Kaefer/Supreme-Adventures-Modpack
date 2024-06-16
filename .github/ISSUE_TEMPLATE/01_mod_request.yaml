@@ -1,10 +1,10 @@
 # This is the template for suggesting a mod to be added to the modpack
-name:
-  description: ":sparkles: Mod Request"
+# https://www.youtube.com/watch?v=JnSAHjMCkQQ
+name: ":sparkles: Mod Request"
 description: Suggest a mod to be added to the modpack
 title: "[MOD REQUEST] <Mod Name>"
 labels: [":sparkles: mod request"]
-assignees: ''
+#assignees: '' # Update with auto-assignees
 body:
   -  type: input
      id: mod_name
@@ -14,6 +14,7 @@ body:
        placeholder: Example Mod
      validations:
        required: true
+
   -  type: checkboxes
      id: mods_request
      attributes:
@@ -22,6 +23,7 @@ body:
       options:
         - label: 'I understand'
           required: true
+
   - type: checkboxes
     id: mods_votes
     attributes:
@@ -37,6 +39,35 @@ body:
       label: Mod Link
       description: A link to where the mod can be downloaded or more information can be found
       placeholder: https://example.com/mod
+    validations:
+      required: true
+
+  - type: textarea
+    id: mod_version
+    attributes:
+      label: Mod Version
+      description: The version of the mod you're suggesting
+    validations:
+      required: true
+
+  - type: dropdown
+    id: mod_version
+    attributes:
+      label: Mod Version
+      description: The version of the Minecraft you're playing
+      multiple: false
+      options:
+        - '1.12.2'
+        - '1.13.0'
+        - '1.14.0'
+        - '1.15.0'
+        - '1.16.0'
+        - '1.17.0'
+        - '1.18.0'
+        - '1.19.0'
+        - '1.20.0'
+        - '1.12.0'
+      default: 0
     validations:
       required: true
 

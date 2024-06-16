@@ -1,2 +1,3 @@
 .github/workflows/auto_label.yaml
 .github/workflows/check_repeats.yaml
+.github/workflows/main-workflow.yaml

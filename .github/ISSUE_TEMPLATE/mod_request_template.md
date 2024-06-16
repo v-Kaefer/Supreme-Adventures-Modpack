@@ -18,6 +18,3 @@ assignees: ''
 
 **Additional Notes**:
 <!-- Any additional notes or comments -->
-
-**Requested By**:
-<!-- Your GitHub username -->

@@ -4,7 +4,10 @@ import json
 
 # Load the API key from the environment
 API_KEY = os.getenv('CURSEFORGE_API_KEY')
-MODS_LIST = ['mod_name_1', 'mod_name_2', 'mod_name_3']  # Replace with your mod names
+GITHUB_TOKEN = os.getenv('GITHUB_TOKEN')
+GITHUB_REPO = 'v-Kaefer/Supreme-Adventures-Modpacks'  # Replace with your GitHub repo
+
+MODS_LIST_FILE = 'mods_list.json'
 OUTPUT_FILE = 'mods_list.json'
 
 headers = {
@@ -51,29 +54,48 @@ def get_mod_loaders():
     response = requests.get(url, headers=headers)
     return response.json()
 
+def get_github_issues():
+    url = f'https://api.github.com/repos/{GITHUB_REPO}/issues'
+    headers = {
+        'Authorization': f'token {GITHUB_TOKEN}',
+        'Accept': 'application/vnd.github.v3+json'
+    }
+    response = requests.get(url, headers=headers)
+    return response.json()
+
+def read_mods_list():
+    if os.path.exists(MODS_LIST_FILE):
+        with open(MODS_LIST_FILE, 'r') as file:
+            return json.load(file)
+    return []
+
 def update_mod_list():
     mods_data = []
     mod_ids = []
+    mods_list = read_mods_list()
 
-    for mod_name in MODS_LIST:
+    for mod in mods_list:
+        mod_name = mod['mod_name']
         search_results = search_mods(mod_name)
         if search_results['data']:
-            mod = search_results['data'][0]
-            mod_id = mod['id']
-            mod_name = mod['name']
+            mod_info = search_results['data'][0]
+            mod_id = mod_info['id']
+            mod_name = mod_info['name']
             versions = get_mod_versions(mod_id)
-            mod_info = {
+            mod_details = {
                 'mod_name': mod_name,
                 'mod_id': mod_id,
-                'versions': []
+                'versions': [],
+                'requested_by': mod['requested_by'],
+                'votes': mod['votes']
             }
             for version in versions['data']:
                 if 'gameVersions' in version:
-                    mod_info['versions'].append({
+                    mod_details['versions'].append({
                         'version': version['displayName'],
                         'minecraft_versions': version['gameVersions']
                     })
-            mods_data.append(mod_info)
+            mods_data.append(mod_details)
             mod_ids.append(mod_id)
 
     mod_details = get_mods_by_ids(mod_ids)

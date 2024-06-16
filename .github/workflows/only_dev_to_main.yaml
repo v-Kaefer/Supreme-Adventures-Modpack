@@ -28,7 +28,9 @@ jobs:
           script: |
             const commentMessage = "Error: Only PRs from the 'dev' branch can be merged into 'main'!";
             const prContext = github.context;
+            echo github.context;
             const { owner, repo, number } = prContext.issue;
+            echo prContext.issue;
             const octokit = github.getOctokit(process.env.GITHUB_TOKEN);
             octokit.issues.createComment({
               owner,

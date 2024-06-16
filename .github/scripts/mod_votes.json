@@ -1,0 +1,16 @@
+{
+    "mods": [
+        {
+            "name": "mod_name_1",
+            "votes": 5,
+            "versions": ["1.19.1", "1.19.2"],
+            "usernames": ["user1", "user2"]
+        },
+        {
+            "name": "mod_name_2",
+            "votes": 3,
+            "versions": ["1.19.1"],
+            "usernames": ["user3", "user4"]
+        }
+    ]
+}

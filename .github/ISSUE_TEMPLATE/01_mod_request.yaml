@@ -1,0 +1,57 @@
+# This is the template for suggesting a mod to be added to the modpack
+name:
+  description: ":sparkles: Mod Request"
+description: Suggest a mod to be added to the modpack
+title: "[MOD REQUEST] <Mod Name>"
+labels: [":sparkles: mod request"]
+assignees: ''
+body:
+  -  type: input
+     id: mod_name
+     attributes:
+       label: Mod Name
+       description: Name of the mod you're suggesting
+       placeholder: Example Mod
+     validations:
+       required: true
+  -  type: checkboxes
+     id: mods_request
+     attributes:
+      label: Mod Request
+      description: I understand that this is a request and not a guarantee that the mod will be added to the modpack
+      options:
+        - label: 'I understand'
+          required: true
+  - type: checkboxes
+    id: mods_votes
+    attributes:
+      label: Mod Request
+      description: I understand that this is a request and not a guarantee that the mod will be added to the modpack
+      options:
+        - label: 'I understand'
+          required: true
+
+  - type: textarea
+    id: mod_link
+    attributes:
+      label: Mod Link
+      description: A link to where the mod can be downloaded or more information can be found
+      placeholder: https://example.com/mod
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why?
+      description: Explain why you think this mod should be included in the modpack
+      placeholder: This mod adds a lot of new content to the game and enhances the player experience
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional_notes
+    attributes:
+      label: Additional Notes
+      description: Any additional notes or comments
+      placeholder: This mod requires a specific version of Forge to work correctly

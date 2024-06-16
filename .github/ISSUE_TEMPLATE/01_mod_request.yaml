@@ -1,6 +1,6 @@
 # This is the template for suggesting a mod to be added to the modpack
 # https://www.youtube.com/watch?v=JnSAHjMCkQQ
-name: ":sparkles: Mod Request"
+name: "Mod Request"
 description: Suggest a mod to be added to the modpack
 title: "[MOD REQUEST] <Mod Name>"
 labels: [":sparkles: mod request"]

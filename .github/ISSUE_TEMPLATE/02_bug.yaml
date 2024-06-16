@@ -1,0 +1,107 @@
+# Bug Template
+name: ":bug: Bug Report"
+description: Report a bug encountered in the application
+title: "[BUG] <Bug Title>"
+labels: [":bug: bug report"]
+#assignees: '' # Update with auto-assignees
+body:
+  - type: input
+    id: bug_title
+    attributes:
+      label: Bug Title
+      description: Brief title summarizing the bug
+      placeholder: Bug Title
+    validations:
+      required: true
+
+  - type: dropdown
+    id: bug_mc_version
+    attributes:
+      label: Minecraft Version
+      description: What is the minecraft version you are playing on?
+      multiple: false
+      options:
+        - '1.12.2'
+        - '1.13.0'
+        - '1.14.0'
+        - '1.15.0'
+        - '1.16.0'
+        - '1.17.0'
+        - '1.18.0'
+        - '1.19.0'
+        - '1.20.0'
+        - '1.21.0'
+      default: 0
+    validations:
+      required: true
+
+  - type: input
+    id: bug_mod_version
+    attributes:
+      label: Mod Version
+      description: If you think or read that it was from a specific mod, please provide the mod version.
+
+  - type: textarea
+    id: bug_description
+    attributes:
+      label: Bug Description
+      description: Detailed description of the bug encountered
+      placeholder: Describe the bug here
+    validations:
+      required: true
+
+  - type: input
+    id: steps_to_reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: List of steps to reproduce the bug
+      placeholder: 1. Go to...
+                   2. Click on...
+                   3. See error...
+    validations:
+      required: true
+
+  - type: input
+    id: expected_behavior
+    attributes:
+      label: Expected Behavior
+      description: Describe what you expected to happen
+      placeholder: Describe expected behavior here
+    validations:
+      required: true
+
+  - type: input
+    id: actual_behavior
+    attributes:
+      label: Actual Behavior
+      description: Describe what actually happened
+      placeholder: Describe actual behavior here
+
+  #- type: input
+  #  id: environment
+  #  attributes:
+  #    label: Environment
+  #    description: Environment where the bug occurred (e.g., browser, OS)
+  #    placeholder: Environment details
+  #  validations:
+  #    required: true
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      description: "Severity level of the bug. Example: Low = Texture/Visual Bug; Medium = Mod/Feature not working; High = Game Crash."
+      multiple: false
+      options:
+        - Low
+        - Medium
+        - High
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional_notes
+    attributes:
+      label: Additional Notes
+      description: Any additional information or notes about the bug
+      placeholder: Add any extra information here

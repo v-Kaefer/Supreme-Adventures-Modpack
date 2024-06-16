@@ -3,7 +3,7 @@
 
 
 After watching [Lunar's Modloaders Series](youtube.com/playlist?list=PLSnKfKBtUECNFJit8mP2FnTjku0kbRrCT&si=hEyqtEyulBJbF6vV)
-I decided to use Forge for my first modpack.# Minecraft Modpack Requests and Voting
+I decided to use Forge for my first modpack.
 
 
 ### Requested Mods and Vote Counts

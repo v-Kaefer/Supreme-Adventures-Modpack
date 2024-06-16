@@ -3,14 +3,19 @@ import os
 import requests
 import logging
 from cfapi_integration import CurseForgeAPI
+from github import Github
+from voting_system import VotingSystem
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 class ModRequestHandler:
-    def __init__(self, json_file_path):
+    def __init__(self, json_file_path, votes_file_path, github_token):
         self.json_file_path = json_file_path
+        self.votes_file_path = votes_file_path
+        self.github = Github(github_token)
         self.mods = self.load_mods()
+        self.voting_system = VotingSystem(votes_file_path)
 
     def load_mods(self):
         try:
@@ -40,8 +45,17 @@ class ModRequestHandler:
             return True
         return False
 
-    def handle_mod_request(self, mod_name):
+    def handle_mod_request(self, issue):
+        mod_name = issue.title.replace("[MOD REQUEST] ", "").strip()
+        user = issue.user.login
         api = CurseForgeAPI()
+
+        if self.is_mod_in_list(mod_name):
+            self.voting_system.vote_for_mod(mod_name, user)
+            issue.create_comment(f"Mod '{mod_name}' is already in the list. Your vote has been added.")
+            logging.info(f"Mod '{mod_name}' is already in the list. Vote added for user '{user}'.")
+            return
+
         try:
             mods = api.search_mods(mod_name)
             if mods['data']:
@@ -55,21 +69,15 @@ class ModRequestHandler:
                     "modloader": mod_details['data']['latestFiles'][0]['modLoaders'][0]
                 }
                 if self.add_mod(mod_name, mod_info):
-                    logging.info(f"Mod '{mod_name}' added successfully.")
+                    self.voting_system.vote_for_mod(mod_name, user)
+                    issue.create_comment(f"Mod '{mod_name}' added successfully. Your vote has been added.")
+                    logging.info(f"Mod '{mod_name}' added successfully. Vote added for user '{user}'.")
                 else:
-                    logging.info(f"Mod '{mod_name}' is already in the list.")
+                    self.voting_system.vote_for_mod(mod_name, user)
+                    issue.create_comment(f"Mod '{mod_name}' is already in the list. Your vote has been added.")
+                    logging.info(f"Mod '{mod_name}' is already in the list. Vote added for user '{user}'.")
             else:
+                issue.create_comment(f"Mod '{mod_name}' not found on CurseForge.")
                 logging.info(f"Mod '{mod_name}' not found on CurseForge.")
         except requests.RequestException as e:
             logging.error(f"Error fetching mod details from CurseForge: {e}")
-
-# Example usage
-if __name__ == "__main__":
-    import sys
-    if len(sys.argv) != 2:
-        logging.error("Usage: python mod_request_handler.py <mod_name>")
-        sys.exit(1)
-
-    mod_name = sys.argv[1]
-    handler = ModRequestHandler(".github/scripts/modslist.json")
-    handler.handle_mod_request(mod_name)

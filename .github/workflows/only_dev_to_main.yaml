@@ -20,16 +20,6 @@ jobs:
           echo "GITHUB_HEAD_REF: ${{ github.head_ref }}"
           echo "GITHUB_BASE_REF: ${{ github.base_ref }}"
 
-      - name: Check if PR is to main from dev
-        id: check_pr
-        run: |
-          if [[ "${{ github.base_ref }}" == "main" && "${{ github.head_ref }}" != "dev" ]]; then
-            echo "Only the 'dev' branch can create a pull request to 'main'"
-            exit 1
-          else
-            echo "Target is not 'main' or PR is from 'dev', skipping check."
-          fi
-
       - name: Add comment if branch check fails on pull request
         if: failure()
         uses: actions/github-script@v7

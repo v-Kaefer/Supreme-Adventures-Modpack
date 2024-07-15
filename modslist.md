@@ -105,7 +105,6 @@
 - Reap
 - FTB Ultimine
 - Veinminer
-- Fast Leaf Decay
 - Clean Swing Through Grass
 - SwingThough
 - Pick Up Notifier
@@ -139,7 +138,7 @@
 
 - Bonfires
 - Extra Utilities
-- Applied Energetics 2
+- Applied Energetics 2 (AE2 Unofficial Extended Life, AE2 Stuff Unofficial)
 - Immersive Engineers
 - Railcraft
 - Thermal Expansion
@@ -178,22 +177,18 @@
 - Bibliocraft
 - Trashcans
 - Blood Magic
-- Draconic Evolution
 - Tech Reborn
 - Industrial Craft
 - Project E
-- Pam's Harvestcraft
 - Potheosis ?
 - Lucky Blocks ?
 - Ender IO
 - MystCraft
 - PneumaticCraft
 - Nature's Compass
-- OpenBlocks
 - Quark
 - RF Tools
 - Compact Machines
-- Reliquary
 - Iron Chest
 - Elevators
 - MineColonies ?
@@ -222,7 +217,6 @@
 - Functional Storage
 - Mekanism []
 - Dank Storage
-- Applied Energistics
 - Sophisticated Storages
 - Ender Chests
 - Occultism
@@ -242,5 +236,81 @@
 - Tekkit Classic
 
 
+## Not Sure
+
+- AstikorCarts Redux
+- Carry On
+- Doggy Talents
+- Dynamic Lights
+- Enhanced Visuals
+- Fancy Block Particles
+- Fast Leaf Decay
+- Crayfish Furnature Mod
+- Mantle.gg
+- InstantLava
+- MineColonies
+- Pam's HarvestCraft
+- RPG Loot
+- [SBM] Jukebox
+- ToolBelt
+- Worley's Caves
+- Zombie Awareness
+- Midnight
+- Armourer's Workshop
+- FlenixCities
+- Natural Decor Mod
+- William Wythers' Expanded Ecosphere
+- Treecapitator
+- Travellers Gear
+- Technomancy 2
+- Sanguimancy
+- Reliquary
+- Pneumatic Craft
+- Player API
+- P455w0rdslib
+- Ore Dictionary Converter
+- Auto Ore Dictionary Converter
+- OpenBlocks
+- Numina
+- Thermal Innovation
+- NodalMechanics
+- Necromancy
+- NaturalAbsorption
+- Natura
+- ModularPowersuits
+- ItemFrameCommands
+- Energy Control
+- Hardcore Ender Expansion
+- EnergonRelics
+- Fluxed Trinkets
+- Eureka
+- EnderTech
+- EssentialCraft 3
+- Draconic Evolution
+- Decocraft
+- CompactSolars
+- compacter
+- ArchitectureCraft - TridentMC Version
+- Actually Additions
+- ExtraTiC [If using Tinkerer's Construct]
+- Academy Craft
+- Storage Delight (Forge)
+- MixinBooter
+- 
+
+https://www.curseforge.com/minecraft/mc-mods/extrautils-mfr-integration
+https://www.curseforge.com/minecraft/mc-mods/decotronics
+
+
 # Forge, CurseForge, Fabric, Quilt, NeoForge
 
+
+### Ideas for my mod:
+
+https://www.curseforge.com/minecraft/mc-mods/workshop-for-handsome-adventurer
+https://duckduckgo.com/?q=minecraft+isometric+screenshot&t=vivaldi&iax=images&ia=images&iai=https%3A%2F%2Fcdn.dribbble.com%2Fusers%2F5480%2Fscreenshots%2F924228%2Fscreen_shot_2013-02-01_at_10.59.59_pm.png
+
+
+### For the 1.7.10 pack
+
+https://www.curseforge.com/minecraft/mc-mods/witching-gadgets

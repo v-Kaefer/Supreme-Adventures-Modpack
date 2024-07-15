@@ -139,7 +139,7 @@
 
 - Bonfires
 - Extra Utilities
-- Applied Energetics 2
+- Applied Energetics 2 (AE2 Unofficial Extended Life, AE2 Stuff Unofficial)
 - Immersive Engineers
 - Railcraft
 - Thermal Expansion
@@ -222,7 +222,6 @@
 - Functional Storage
 - Mekanism []
 - Dank Storage
-- Applied Energistics
 - Sophisticated Storages
 - Ender Chests
 - Occultism
@@ -303,6 +302,7 @@
 - ExtraTiC [If using Tinkerer's Construct]
 - Academy Craft
 - Storage Delight (Forge)
+- MixinBooter
 - 
 
 # Forge, CurseForge, Fabric, Quilt, NeoForge

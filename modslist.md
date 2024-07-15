@@ -242,5 +242,68 @@
 - Tekkit Classic
 
 
+## Not Sure
+
+- AstikorCarts Redux
+- Carry On
+- Doggy Talents
+- Dynamic Lights
+- Enhanced Visuals
+- Fancy Block Particles
+- Fast Leaf Decay
+- Crayfish Furnature Mod
+- Mantle.gg
+- InstantLava
+- MineColonies
+- Pam's HarvestCraft
+- RPG Loot
+- [SBM] Jukebox
+- ToolBelt
+- Worley's Caves
+- Zombie Awareness
+- Midnight
+- Armourer's Workshop
+- FlenixCities
+- Natural Decor Mod
+- William Wythers' Expanded Ecosphere
+- Treecapitator
+- Travellers Gear
+- Technomancy 2
+- Sanguimancy
+- Reliquary
+- Pneumatic Craft
+- Player API
+- P455w0rdslib
+- Ore Dictionary Converter
+- Auto Ore Dictionary Converter
+- OpenBlocks
+- Numina
+- Thermal Innovation
+- NodalMechanics
+- Necromancy
+- NaturalAbsorption
+- Natura
+- ModularPowersuits
+- ItemFrameCommands
+- Energy Control
+- Hardcore Ender Expansion
+- EnergonRelics
+- Fluxed Trinkets
+- Eureka
+- EnderTech
+- Ender Storage
+- EssentialCraft 3
+- Draconic Evolution
+- Dense Ores
+- Decocraft
+- CompactSolars
+- compacter
+- ArchitectureCraft - TridentMC Version
+- Actually Additions
+- ExtraTiC [If using Tinkerer's Construct]
+- Academy Craft
+- Storage Delight (Forge)
+- 
+
 # Forge, CurseForge, Fabric, Quilt, NeoForge
 

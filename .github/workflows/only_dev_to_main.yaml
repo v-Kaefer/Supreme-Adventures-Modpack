@@ -5,6 +5,7 @@ on:
     branches:
       - main
     types: [opened, synchronize, reopened]
+    
 permissions:
   issues: write
     
@@ -31,12 +32,13 @@ jobs:
             const commentMessage = "Error: Only PRs from the 'dev' branch can be merged into 'main'!";
             const prNumber = context.payload.pull_request.number;
             const { owner, repo } = context.repo;
-            github.rest.issues.createComment({
+            await github.rest.issues.createComment({
               owner,
               repo,
               issue_number: prNumber,
               body: commentMessage
             });
+
       - name: Fail if not from dev branch
         if: ${{ github.head_ref != 'dev' }}
         run: exit 1

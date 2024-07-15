@@ -27,13 +27,13 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const commentMessage = "Error: Only PRs from the 'dev' branch can be merged into 'main'!";
-            const prContext = github.context.payload.pull_request.number;
-            const { owner, repo } = github.context.repo;
+            const prContext = context.payload.pull_request.number;
+            const { owner, repo } = context.repo;
             const octokit = github.getOctokit(process.env.GITHUB_TOKEN);
             octokit.issues.createComment({
               owner,
               repo,
-              issue_number: number,
+              issue_number: prNumber,
               body: commentMessage
             });
       - name: Fail if not from dev branch

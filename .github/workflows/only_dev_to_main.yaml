@@ -36,3 +36,6 @@ jobs:
               issue_number: number,
               body: commentMessage
             });
+      - name: Fail if not from dev branch
+        if: ${{ github.head_ref != 'dev' }}
+        run: exit 1

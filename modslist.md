@@ -105,7 +105,6 @@
 - Reap
 - FTB Ultimine
 - Veinminer
-- Fast Leaf Decay
 - Clean Swing Through Grass
 - SwingThough
 - Pick Up Notifier
@@ -178,11 +177,9 @@
 - Bibliocraft
 - Trashcans
 - Blood Magic
-- Draconic Evolution
 - Tech Reborn
 - Industrial Craft
 - Project E
-- Pam's Harvestcraft
 - Potheosis ?
 - Lucky Blocks ?
 - Ender IO
@@ -290,10 +287,8 @@
 - Fluxed Trinkets
 - Eureka
 - EnderTech
-- Ender Storage
 - EssentialCraft 3
 - Draconic Evolution
-- Dense Ores
 - Decocraft
 - CompactSolars
 - compacter
@@ -305,5 +300,19 @@
 - MixinBooter
 - 
 
+https://www.curseforge.com/minecraft/mc-mods/extrautils-mfr-integration
+https://www.curseforge.com/minecraft/mc-mods/decotronics
+
+
 # Forge, CurseForge, Fabric, Quilt, NeoForge
 
+
+### Ideas for my mod:
+
+https://www.curseforge.com/minecraft/mc-mods/workshop-for-handsome-adventurer
+https://duckduckgo.com/?q=minecraft+isometric+screenshot&t=vivaldi&iax=images&ia=images&iai=https%3A%2F%2Fcdn.dribbble.com%2Fusers%2F5480%2Fscreenshots%2F924228%2Fscreen_shot_2013-02-01_at_10.59.59_pm.png
+
+
+### For the 1.7.10 pack
+
+https://www.curseforge.com/minecraft/mc-mods/witching-gadgets

@@ -5,6 +5,8 @@ on:
     branches:
       - main
     types: [opened, synchronize, reopened]
+permissions:
+  issues: write
     
 jobs:
   only-dev-to-main:

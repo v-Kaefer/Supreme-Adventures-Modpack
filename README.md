@@ -32,6 +32,7 @@ To request a Mod, please open an issue using the [Mod Request Template](.github/
 
 This repository uses GitHub Actions to automate the process of handling mod requests, verifying them, and updating the mod list and votes.
 
+
 ## Modpack Composition
 
 ```mermaid

@@ -17,7 +17,7 @@ title: Before Requesting a Mod to be Added
 flowchart LR
     A{{New Mod}} --> B[Is it Useful?]
     B -. No .-> D[Cosmetic?]
-    B -- Yes --> C[*Is it and Addon?]
+    B -- Yes --> C[*Is it an Addon?]
     C -. No .-> E{{Open a Mod Request}}
     C == Yes ==> F[[See Addons Requests]]
     D -. No .-> C

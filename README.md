@@ -6,6 +6,7 @@ After watching [Lunar's Modloaders Series](youtube.com/playlist?list=PLSnKfKBtUE
 I decided to use Forge for my first modpack.
 
 
+Big shoutout to Pyker from the Technic team, for the great tutorial on [how to create a client modpack](https://www.technicpack.net/article/how-to-create-a-client-modpack.216)!
 ### Requested Mods and Vote Counts
 
 ## How to Request a Mod

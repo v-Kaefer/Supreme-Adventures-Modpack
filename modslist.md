@@ -30,6 +30,13 @@
     - Just Enough Reactors - [JustEnoughReactors-1.12.2-1.1.3.61](https://www.curseforge.com/minecraft/mc-mods/just-enough-reactors/files/2671784)
 
 * Thaumcraft - [TBD](https://www.curseforge.com/minecraft/mc-mods/thaumcraft/files/2629023)
+* Refined Storage - [TBD](https://www.curseforge.com/minecraft/mc-mods/refined-storage/files/2940914)
+* Zombie Awareness - [zombieawareness-1.12.1-1.11.16.jar](https://www.curseforge.com/minecraft/mc-mods/zombie-awareness/files/2663393)
+    - Zombie Awareness Freeze Fix - []()
+* Blood Magic - [BloodMagic-1.12.2-2.4.3-105.jar](https://www.curseforge.com/minecraft/mc-mods/blood-magic/files/2822288)
+    - Patchouli - [Patchouli-1.0-23.6.jar](https://www.curseforge.com/minecraft/mc-mods/patchouli/files/3162874)
+    - Guide-API - [Guide-API-1.12-2.1.8-63.jar](https://www.curseforge.com/minecraft/mc-mods/guide-api/files/2645992)
+
 
 
 ### Added main Armour Mods
@@ -51,6 +58,7 @@
 * EnderCore - [EnderCore - 1.12.2-0.5.78](https://www.curseforge.com/minecraft/mc-mods/endercore/files/4671384)
 * BdLib - [BDLib 1.14.4.1 (MC 1.12.2)](https://www.curseforge.com/minecraft/mc-mods/bdlib/files/4675629)
 * ZeroCore - [zerocore-1.12.2-0.1.2.9.jar](https://www.curseforge.com/minecraft/mc-mods/zerocore/files/3194743)
+* CoroUtil - [coroutil-1.12.1-1.2.37.jar](https://legacy.curseforge.com/minecraft/mc-mods/coroutil)
 
 
 ### Added main QoL Mods
@@ -68,6 +76,9 @@
 * SwingThroughGrass - [stg-1.12.2-1.2.3.jar](https://www.curseforge.com/minecraft/mc-mods/swingthroughgrass/files/2508268)
 * Pick Up Notifier [Forge & Fabric] - [PickUpNotifier-v1.1.5-1.12.2.jar](https://www.curseforge.com/minecraft/mc-mods/pick-up-notifier/files/3062121)
 * GraveStone Mod - [[1.12.2] Gravestone Mod 1.10.3](https://www.curseforge.com/minecraft/mc-mods/gravestone-mod/files/2744766)
+* Hwyla - [Hwyla-1.8.26-B41_1.12.2.jar](https://www.curseforge.com/minecraft/mc-mods/hwyla/files/2568751)
+* Neat - [Neat 1.4-17.jar](https://www.curseforge.com/minecraft/mc-mods/neat/files/2595310)
+* HT's TreeChop - [TreeChop-1.12.2-0.14.7.jar](https://www.curseforge.com/minecraft/mc-mods/treechop/files/3532213)
 
 
 #### Added main QoL Addons
@@ -76,3 +87,5 @@
 
 ### Added main Performance Mods
 * Phosphor (Forge) - [Phosphor mc1.12.2-0.2.6](https://www.curseforge.com/minecraft/mc-mods/phosphor-forge/files/2747710)
+* Clumps - [Clumps-3.1.2](https://www.curseforge.com/minecraft/mc-mods/clumps/files/2666198)
+

@@ -30,6 +30,8 @@
     - Just Enough Reactors - [JustEnoughReactors-1.12.2-1.1.3.61](https://www.curseforge.com/minecraft/mc-mods/just-enough-reactors/files/2671784)
 
 * Thaumcraft - [TBD](https://www.curseforge.com/minecraft/mc-mods/thaumcraft/files/2629023)
+* Thaumcraft - [Thaumcraft-1.12.2-6.1.BETA26.jar](https://www.curseforge.com/minecraft/mc-mods/thaumcraft/files/2629023)
+    - Thaumic Energistics - [(AE2-RV6) Thaumic Energistics 2.2.4](https://www.curseforge.com/minecraft/mc-mods/thaumic-energistics/files/2915506)
 * Refined Storage - [TBD](https://www.curseforge.com/minecraft/mc-mods/refined-storage/files/2940914)
 * Zombie Awareness - [zombieawareness-1.12.1-1.11.16.jar](https://www.curseforge.com/minecraft/mc-mods/zombie-awareness/files/2663393)
     - Zombie Awareness Freeze Fix - []()
@@ -40,6 +42,7 @@
 
 * PneumaticCraft: Repressurized - [pneumaticcraft-repressurized-1.12.2-0.11.15-398.jar](https://www.curseforge.com/minecraft/mc-mods/pneumaticcraft-repressurized/files/2978408)
     - ConnectedTexturesMod - [CTM - MC1.12.2-1.0.2.31](https://www.curseforge.com/minecraft/mc-mods/ctm/files/2915363)
+* OpenBlocks Elevator - [ElevatorMod-1.12.2-1.3.14.jar](https://www.curseforge.com/minecraft/mc-mods/openblocks-elevator/files/2845365)
 
 
 ### Added main Armour Mods
@@ -62,6 +65,7 @@
 * BdLib - [BDLib 1.14.4.1 (MC 1.12.2)](https://www.curseforge.com/minecraft/mc-mods/bdlib/files/4675629)
 * ZeroCore - [zerocore-1.12.2-0.1.2.9.jar](https://www.curseforge.com/minecraft/mc-mods/zerocore/files/3194743)
 * CoroUtil - [coroutil-1.12.1-1.2.37.jar](https://legacy.curseforge.com/minecraft/mc-mods/coroutil)
+* Baubles - [Baubles-1.12-1.5.2.jar](https://www.curseforge.com/minecraft/mc-mods/baubles/files/2518667)
 
 
 ### Added main QoL Mods
@@ -82,6 +86,7 @@
 * Hwyla - [Hwyla-1.8.26-B41_1.12.2.jar](https://www.curseforge.com/minecraft/mc-mods/hwyla/files/2568751)
 * Neat - [Neat 1.4-17.jar](https://www.curseforge.com/minecraft/mc-mods/neat/files/2595310)
 * HT's TreeChop - [TreeChop-1.12.2-0.14.7.jar](https://www.curseforge.com/minecraft/mc-mods/treechop/files/3532213)
+* Just Enough Energistics (JEE) - [JustEnoughEnergistics-1.12.2-1.0.8.jar](https://www.curseforge.com/minecraft/mc-mods/just-enough-energistics-jee/files/2783832)
 
 
 #### Added main QoL Addons

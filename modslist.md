@@ -36,6 +36,7 @@
 * Blood Magic - [BloodMagic-1.12.2-2.4.3-105.jar](https://www.curseforge.com/minecraft/mc-mods/blood-magic/files/2822288)
     - Patchouli - [Patchouli-1.0-23.6.jar](https://www.curseforge.com/minecraft/mc-mods/patchouli/files/3162874)
     - Guide-API - [Guide-API-1.12-2.1.8-63.jar](https://www.curseforge.com/minecraft/mc-mods/guide-api/files/2645992)
+* Reliquary Reincarnations - [Reliquary-1.12.2-1.3.4.796.jar](https://www.curseforge.com/minecraft/mc-mods/reliquary-reincarnations/files/2761319)
 
 
 

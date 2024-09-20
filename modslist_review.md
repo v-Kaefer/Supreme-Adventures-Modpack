@@ -40,6 +40,8 @@
 - Phospor [Forge?] 1.20 under
 - Starlight [?] 1.20 under
 - Optifine (conflicts)
+- More Culling [Fabric] 1.18+
+- Starlight [Forge] TBD 
 
 
 ### Smaller
@@ -63,7 +65,7 @@
 - Model Gap Fix
 - AttributeFix
 - Max Health Fix
-- MemoryLeakFix
+- MemoryLeakFix [Forge], [Fabric] 1.14+
 - ToolTipFix
 
 
@@ -89,13 +91,13 @@
 
 ### Quality of Life
 
-- Controlling
-- Mod Menu
-- Configured
-- BetterF3
+- Controlling [Forge], [Fabric]
+- Mod Menu []
+- Configured [Forge], [Fabric], [NeoForge]
+- BetterF3 [] 1.16+
 - Toast Control
-- Polymorph
-- Enchantment Descriptions
+- Polymorph [] 1.15.2+
+- Enchantment Descriptions []
 - Potion Descriptions
 - Mouse Tweaks
 - Inventory Tweaks

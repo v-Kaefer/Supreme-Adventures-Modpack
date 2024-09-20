@@ -38,6 +38,8 @@
     - Guide-API - [Guide-API-1.12-2.1.8-63.jar](https://www.curseforge.com/minecraft/mc-mods/guide-api/files/2645992)
 * Reliquary Reincarnations - [Reliquary-1.12.2-1.3.4.796.jar](https://www.curseforge.com/minecraft/mc-mods/reliquary-reincarnations/files/2761319)
 
+* PneumaticCraft: Repressurized - [pneumaticcraft-repressurized-1.12.2-0.11.15-398.jar](https://www.curseforge.com/minecraft/mc-mods/pneumaticcraft-repressurized/files/2978408)
+    - ConnectedTexturesMod - [CTM - MC1.12.2-1.0.2.31](https://www.curseforge.com/minecraft/mc-mods/ctm/files/2915363)
 
 
 ### Added main Armour Mods

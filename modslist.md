@@ -32,6 +32,9 @@
 * Thaumcraft - [TBD](https://www.curseforge.com/minecraft/mc-mods/thaumcraft/files/2629023)
 * Thaumcraft - [Thaumcraft-1.12.2-6.1.BETA26.jar](https://www.curseforge.com/minecraft/mc-mods/thaumcraft/files/2629023)
     - Thaumic Energistics - [(AE2-RV6) Thaumic Energistics 2.2.4](https://www.curseforge.com/minecraft/mc-mods/thaumic-energistics/files/2915506)
+    - Thaumic Inventory Scanning (Thaumcraft Addon) - [Thaumic Inventory Scanning (Thaumcraft Addon)](https://www.curseforge.com/minecraft/mc-mods/thaumcraft-inventory-scanning/files/2559089)
+    - Thaumcraft 6 Aspects for JEI - [tc6aspects4jei-0.0.2a.jar](https://www.curseforge.com/minecraft/mc-mods/thaumcraft-6-aspects-for-jei/files/2579495)
+    - Thaumcraft Node Tracker - [TBD] (https://www.curseforge.com/minecraft/mc-mods/thaumcraft-node-tracker)
 * Refined Storage - [TBD](https://www.curseforge.com/minecraft/mc-mods/refined-storage/files/2940914)
 * Zombie Awareness - [zombieawareness-1.12.1-1.11.16.jar](https://www.curseforge.com/minecraft/mc-mods/zombie-awareness/files/2663393)
     - Zombie Awareness Freeze Fix - []()
@@ -87,6 +90,7 @@
 * Neat - [Neat 1.4-17.jar](https://www.curseforge.com/minecraft/mc-mods/neat/files/2595310)
 * HT's TreeChop - [TreeChop-1.12.2-0.14.7.jar](https://www.curseforge.com/minecraft/mc-mods/treechop/files/3532213)
 * Just Enough Energistics (JEE) - [JustEnoughEnergistics-1.12.2-1.0.8.jar](https://www.curseforge.com/minecraft/mc-mods/just-enough-energistics-jee/files/2783832)
+* EIORecipesTEInductionSmelter - [eiorteis-3.1.jar](https://www.curseforge.com/minecraft/mc-mods/eiorecipesteinductionsmelter/files/2602660)
 
 
 #### Added main QoL Addons

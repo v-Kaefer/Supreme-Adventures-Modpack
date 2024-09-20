@@ -35,6 +35,8 @@
     - Thaumic Inventory Scanning (Thaumcraft Addon) - [Thaumic Inventory Scanning (Thaumcraft Addon)](https://www.curseforge.com/minecraft/mc-mods/thaumcraft-inventory-scanning/files/2559089)
     - Thaumcraft 6 Aspects for JEI - [tc6aspects4jei-0.0.2a.jar](https://www.curseforge.com/minecraft/mc-mods/thaumcraft-6-aspects-for-jei/files/2579495)
     - Thaumcraft Node Tracker - [TBD] (https://www.curseforge.com/minecraft/mc-mods/thaumcraft-node-tracker)
+    - Thaumcraft Fix - [ThaumcraftFix-1.12.2-1.0.6.jar](https://www.curseforge.com/minecraft/mc-mods/thaumcraftfix/files/5718230)
+    - Thaumcraft Integration - [tc_integration-1.1-1.12.2](https://www.curseforge.com/minecraft/mc-mods/thaumcraft-integration/files/5657580)
 * Refined Storage - [TBD](https://www.curseforge.com/minecraft/mc-mods/refined-storage/files/2940914)
 * Zombie Awareness - [zombieawareness-1.12.1-1.11.16.jar](https://www.curseforge.com/minecraft/mc-mods/zombie-awareness/files/2663393)
     - Zombie Awareness Freeze Fix - []()

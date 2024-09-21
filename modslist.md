@@ -71,6 +71,9 @@
 * ZeroCore - [zerocore-1.12.2-0.1.2.9.jar](https://www.curseforge.com/minecraft/mc-mods/zerocore/files/3194743)
 * CoroUtil - [coroutil-1.12.1-1.2.37.jar](https://legacy.curseforge.com/minecraft/mc-mods/coroutil)
 * Baubles - [Baubles-1.12-1.5.2.jar](https://www.curseforge.com/minecraft/mc-mods/baubles/files/2518667)
+* Mantle - [Mantle-1.12-1.3.3.55.jar](https://www.curseforge.com/minecraft/mc-mods/mantle/files/2713386)
+* Tinkers Construct - [TConstruct-1.12.2-2.13.0.183.jar](https://www.curseforge.com/minecraft/mc-mods/tinkers-construct/files/2902483)
+* OpenComputers - [OpenComputers-MC1.12.2-1.8.5+179e1c3.jar](https://www.curseforge.com/minecraft/mc-mods/opencomputers/files/5274236)
 
 
 ### Added main QoL Mods

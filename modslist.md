@@ -29,7 +29,6 @@
 * Extreme Reactors - [ExtremeReactors-1.12.2-0.4.5.68.jar](https://www.curseforge.com/minecraft/mc-mods/extreme-reactors/files/3194746)
     - Just Enough Reactors - [JustEnoughReactors-1.12.2-1.1.3.61](https://www.curseforge.com/minecraft/mc-mods/just-enough-reactors/files/2671784)
 
-* Thaumcraft - [TBD](https://www.curseforge.com/minecraft/mc-mods/thaumcraft/files/2629023)
 * Thaumcraft - [Thaumcraft-1.12.2-6.1.BETA26.jar](https://www.curseforge.com/minecraft/mc-mods/thaumcraft/files/2629023)
     - Thaumic Energistics - [(AE2-RV6) Thaumic Energistics 2.2.4](https://www.curseforge.com/minecraft/mc-mods/thaumic-energistics/files/2915506)
     - Thaumic Inventory Scanning (Thaumcraft Addon) - [Thaumic Inventory Scanning (Thaumcraft Addon)](https://www.curseforge.com/minecraft/mc-mods/thaumcraft-inventory-scanning/files/2559089)
@@ -37,6 +36,10 @@
     - Thaumcraft Node Tracker - [TBD] (https://www.curseforge.com/minecraft/mc-mods/thaumcraft-node-tracker)
     - Thaumcraft Fix - [ThaumcraftFix-1.12.2-1.0.6.jar](https://www.curseforge.com/minecraft/mc-mods/thaumcraftfix/files/5718230)
     - Thaumcraft Integration - [tc_integration-1.1-1.12.2](https://www.curseforge.com/minecraft/mc-mods/thaumcraft-integration/files/5657580)
+    - Thaumic JEI - [ThaumicJEI-1.12.2-1.7.0.jar](https://www.curseforge.com/minecraft/mc-mods/thaumic-jei/files/5646810)
+    - Thaumic Augmentation - [ThaumicAugmentation-1.12.2-2.1.13.jar](https://www.curseforge.com/minecraft/mc-mods/thaumic-augmentation/files/5129455)
+    - Thaumic Terminal - [ThaumicTerminal-1.0.12 (TC BETA 26 || AE rv6-stable-6)](https://www.curseforge.com/minecraft/mc-mods/thaumic-terminal/files/2702806)
+
 * Refined Storage - [TBD](https://www.curseforge.com/minecraft/mc-mods/refined-storage/files/2940914)
 * Zombie Awareness - [zombieawareness-1.12.1-1.11.16.jar](https://www.curseforge.com/minecraft/mc-mods/zombie-awareness/files/2663393)
     - Zombie Awareness Freeze Fix - []()
@@ -48,6 +51,15 @@
 * PneumaticCraft: Repressurized - [pneumaticcraft-repressurized-1.12.2-0.11.15-398.jar](https://www.curseforge.com/minecraft/mc-mods/pneumaticcraft-repressurized/files/2978408)
     - ConnectedTexturesMod - [CTM - MC1.12.2-1.0.2.31](https://www.curseforge.com/minecraft/mc-mods/ctm/files/2915363)
 * OpenBlocks Elevator - [ElevatorMod-1.12.2-1.3.14.jar](https://www.curseforge.com/minecraft/mc-mods/openblocks-elevator/files/2845365)
+* RagiMaterials - [TBD](https://www.curseforge.com/minecraft/mc-mods/ragimaterials)
+* Tinkers Construct - [TConstruct-1.12.2-2.13.0.183.jar](https://www.curseforge.com/minecraft/mc-mods/tinkers-construct/files/2902483)
+* OpenComputers - [OpenComputers-MC1.12.2-1.8.5+179e1c3.jar](https://www.curseforge.com/minecraft/mc-mods/opencomputers/files/5274236)
+* Industrial Craft - [industrialcraft-2-2.8.222-ex112.jar](https://www.curseforge.com/minecraft/mc-mods/industrial-craft/files/3838713)
+* CraftTweaker - [CraftTweaker2-1.12-4.1.20.700.jar](https://www.curseforge.com/minecraft/mc-mods/crafttweaker/files/5486112)
+* GregTech Community Edition - [gregtech-1.12.2-1.17.1.770.jar](https://www.curseforge.com/minecraft/mc-mods/gregtechce/files/3478805) **[REMOVED - REVIEW RELATIONS]**
+    - GregTech CE Unofficial - [GregTech: 2.8.10-beta](https://www.curseforge.com/minecraft/mc-mods/gregtech-ce-unofficial/files/5519022) **[REMOVED - REVIEW RELATIONS]**
+* TerraFirmaCraft - [TBD](https://www.curseforge.com/minecraft/mc-mods/terrafirmacraft)
+* Construct's Armory - [conarm-1.12.2-1.2.5.10.jar](https://www.curseforge.com/minecraft/mc-mods/constructs-armory/files/3174535)
 
 
 ### Added main Armour Mods
@@ -69,10 +81,11 @@
 * EnderCore - [EnderCore - 1.12.2-0.5.78](https://www.curseforge.com/minecraft/mc-mods/endercore/files/4671384)
 * BdLib - [BDLib 1.14.4.1 (MC 1.12.2)](https://www.curseforge.com/minecraft/mc-mods/bdlib/files/4675629)
 * ZeroCore - [zerocore-1.12.2-0.1.2.9.jar](https://www.curseforge.com/minecraft/mc-mods/zerocore/files/3194743)
+* MixinBooter - [MixinBooter 9.4](https://www.curseforge.com/minecraft/mc-mods/mixin-booter/files/5739618) **[REMOVED - CRASH]**
+* RenderLib - [RenderLib-1.12.2-1.3.5.jar](https://www.curseforge.com/minecraft/mc-mods/renderlib/files/5421689) **[REMOVED - CRASH]**
 * CoroUtil - [coroutil-1.12.1-1.2.37.jar](https://legacy.curseforge.com/minecraft/mc-mods/coroutil)
 * Baubles - [Baubles-1.12-1.5.2.jar](https://www.curseforge.com/minecraft/mc-mods/baubles/files/2518667)
 * Mantle - [Mantle-1.12-1.3.3.55.jar](https://www.curseforge.com/minecraft/mc-mods/mantle/files/2713386)
-* Tinkers Construct - [TConstruct-1.12.2-2.13.0.183.jar](https://www.curseforge.com/minecraft/mc-mods/tinkers-construct/files/2902483)
 * OpenComputers - [OpenComputers-MC1.12.2-1.8.5+179e1c3.jar](https://www.curseforge.com/minecraft/mc-mods/opencomputers/files/5274236)
 
 

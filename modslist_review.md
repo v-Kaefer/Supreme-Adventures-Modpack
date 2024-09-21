@@ -18,7 +18,7 @@
 - JEI
 - REI
 - EMI
-- NEI
+- -NEI-
 
 
 ### Maps
@@ -36,8 +36,8 @@
 * Embeddium [1.0, v1_20, FORGE]
 - Lithium []
 - Canary [Fabric]
-- Roadrunner [Forge]
-- Phospor [Forge?] 1.20 under
+- Roadrunner [Forge] 1.16.4+
+- Phosphor (Forge) [Forge] 1.15 under
 - Starlight [?] 1.20 under
 - Optifine (conflicts)
 - More Culling [Fabric] 1.18+
@@ -46,47 +46,48 @@
 
 ### Smaller
 
-- Ferrite Core
-- Clumps
-- Entity Culling
-- More Culling
-- Cull less leaves?
-- Enhanced blocks entities
-- Dynamic FPS
-- ModernFix
-- Immediately Fast
-- Exordium
-- Smooth Boot 1.90 under
+- Ferrite Core [?]
+- Clumps [Forge]
+- Entity Culling [Forge]
+- More Culling [Forge] 1.18+
+- Cull less leaves [Forge] 1.18+
+- Enhanced blocks entities [Fabric]
+- Dynamic FPS [] 1.21+
+- ModernFix [Forge] 1.16+
+- Immediately Fast [Forge] 1.18+
+- Exordium [Fabric] 
+- Smooth Boot [Forge] 1.14+
 
 
 ### Stability
 
-- Debugify
-- Model Gap Fix
-- AttributeFix
-- Max Health Fix
+- Debugify [Forge] 1.19+
+- Model Gap Fix [] 1.18+
+- AttributeFix [TBD](https://www.curseforge.com/minecraft/mc-mods/attributefix)
+- Max Health Fix [] 1.16.5+
 - MemoryLeakFix [Forge], [Fabric] 1.14+
-- ToolTipFix
+- ToolTipFix [] 1.16.2+
 
 
 ### Tooltips
 
-- WTHIT
-- Megane
-- Jade
+- WTHIT - https://www.curseforge.com/minecraft/mc-mods/hwyla/files/2568751
+- Megane (WTHIT addon)
+- Jade (Hwyla/WTHIT fork)
 - Jade Addons
 - MWYLA
 - WAILA
-- Neat [Entities]
-- Damage Indicators
-- ToroHealth Indicators
+- Neat [Entities] [Forge]
+- Damage Indicators [x]
+- ToroHealth Indicators [TBD] (https://www.curseforge.com/minecraft/mc-mods/torohealth-damage-indicators)
 
 
 ### Death
 
 * Gravestone [0.0, v1.20, FORGE]
-- Corpse
-- Universal Graves
+- GraveStone Mod [Forge]
+- Corpse [TBD] (https://www.curseforge.com/minecraft/mc-mods/corpse/files/all?page=1&pageSize=20&version=1.12.2)
+- Universal Graves [Fabric] [TBD]
 
 
 ### Quality of Life
@@ -100,38 +101,40 @@
 - Enchantment Descriptions []
 - Potion Descriptions
 - Mouse Tweaks
-- Inventory Tweaks
-- Inventory Profiles Text
-- Crafting Tweaks
-- AppleSkin
-- Reap
-- FTB Ultimine
-- Veinminer
-- Clean Swing Through Grass
-- SwingThough
-- Pick Up Notifier
+- Inventory Tweaks [] 1.12 ONLY
+- Inventory Profiles Next [] 
+- Crafting Tweaks [Forge]
+- AppleSkin [Forge]
+- Reap [?]
+- FTB Ultimine [Break the game]
+- Veinminer [https://www.curseforge.com/minecraft/mc-mods/veinminer]
+- Clean Swing Through Grass [] 1.20+
+- SwingThroughGrass [Forge]
+- Pick Up Notifier [Forge & Fabric] [Forge]
+- Death Finder [TBD] [Forge] (https://www.curseforge.com/minecraft/mc-mods/death-finder)
+- Visual Workbench [Forge & Fabric] [TBD] (https://www.curseforge.com/minecraft/mc-mods/visual-workbench)
 
 
 ### Utility
 
-- Continuity
-- Entity Texture Features
+- Continuity [Fabric]
+- Entity Texture Features [X]
 - Entity Models Features
 - CIT Resewn
 - Iris
 - Occulus
-- Shoulder surfing reloades
-- SimplyWalk
-- SimplySneak
-- JumpAnimation
-- Sitting+
+- Shoulder surfing reloades [Forge]
+- SimplyWalk [Forge] 1.19+
+- SimplySneak [Forge] 1.19+
+- JumpAnimation [Forge] 1.19+
+- Sitting+ [Forge] 1.19+
 - Sit
-- Not Enough Animations
+- Not Enough Animations [] 1.16+
 - Dark Loading Screen
-- Map Tooltip
-- ScreenShot Viewer
+- Map Tooltip [Forge]
+- ScreenShot Viewer [Forge]
 - No resourcepack Warnings
-- Better Mount HUD
+- Better Mount HUD [] 1.16+
 
 
 ## Wants
@@ -143,16 +146,16 @@
 - Applied Energetics 2 (AE2 Unofficial Extended Life, AE2 Stuff Unofficial)
 - Immersive Engineers
 - Railcraft
-- Thermal Expansion
+- Thermal Expansion []
 - Create
-- Mekanism
-- Industrial Renewal
-- Industrial Revolution
-- Modular Powersuits
-- Cyberware
-- Chisel & Bits
-- Oh The Biomes You Go
-- Carpenter Blocks
+- Mekanism Community Edition []
+- Industrial Renewal [TBD]
+- Industrial Revolution [Fabric]
+- Modular Powersuits []
+- Cyberware [TBD]
+- Chisel & Bits [Forge]
+- Oh The Biomes You Go [TBD](https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-youll-go)
+- Carpenter Blocks [?]()
 - Cooking For Block Heads
 - Mystical Agriculture
 - Botania ?
@@ -244,33 +247,32 @@
 - Carry On
 - Doggy Talents
 - Dynamic Lights
-- Enhanced Visuals
-- Fancy Block Particles
-- Fast Leaf Decay
-- Crayfish Furnature Mod
-- Mantle.gg
-- InstantLava
-- MineColonies
-- Pam's HarvestCraft
-- RPG Loot
+- Enhanced Visuals [TBD](https://www.curseforge.com/minecraft/mc-mods/enhancedvisuals)
+- Fancy Block Particles [TBD](https://www.curseforge.com/minecraft/mc-mods/fancy-block-particles)
+- Fast Leaf Decay [SERVER-SIDE](https://www.curseforge.com/minecraft/mc-mods/fast-leaf-decay)
+- Crayfish Furnature Mod [TBD](https://www.curseforge.com/minecraft/mc-mods/mrcrayfish-furniture-mod)
+- Mantle.gg [Third party]
+- InstantLava [Not needed - Thermal Expansion]
+- MineColonies [TBD](https://www.curseforge.com/minecraft/mc-mods/minecolonies)
+- Pam's HarvestCraft [Only if modified]
+- RPG Loot [TBD] (May cause lag)
 - [SBM] Jukebox
-- ToolBelt
-- Worley's Caves
-- Zombie Awareness
-- Midnight
-- Armourer's Workshop
-- FlenixCities
-- Natural Decor Mod
-- William Wythers' Expanded Ecosphere
-- Treecapitator
-- Travellers Gear
-- Technomancy 2
-- Sanguimancy
-- Reliquary
+- ToolBelt [TBD](https://www.curseforge.com/minecraft/bukkit-plugins/toolbelt)
+- Worley's Caves [May break multiplayer?](https://www.curseforge.com/minecraft/mc-mods/worleys-caves)
+- Zombie Awareness [Forge] {Needs to be verified for freeze with item frames}
+- Midnight [TBD](https://www.curseforge.com/minecraft/texture-packs/midnight)
+- Armourer's Workshop [?]
+- Natural Decor Mod [?]
+- William Wythers' Expanded Ecosphere [] 1.16+
+- Treecapitator -> HT's TreeChop
+- Travellers Gear [] 1.7.0
+- Technomancy 2 [Not worth it]
+- Sanguimancy []
+- Reliquary Reincarnations []
 - Pneumatic Craft
 - Player API
 - P455w0rdslib
-- Ore Dictionary Converter
+- Ore Dictionary Converter [Forge]
 - Auto Ore Dictionary Converter
 - OpenBlocks
 - Numina
@@ -298,7 +300,9 @@
 - Academy Craft
 - Storage Delight (Forge)
 - MixinBooter
-- 
+- Advanced Power Systems: Repowered (https://www.curseforge.com/minecraft/mc-mods/aps-repowered)
+- Power Chisels(https://www.curseforge.com/minecraft/mc-mods/power-chisels)
+
 
 https://www.curseforge.com/minecraft/mc-mods/extrautils-mfr-integration
 https://www.curseforge.com/minecraft/mc-mods/decotronics
@@ -316,3 +320,11 @@ https://duckduckgo.com/?q=minecraft+isometric+screenshot&t=vivaldi&iax=images&ia
 ### For the 1.7.10 pack
 
 https://www.curseforge.com/minecraft/mc-mods/witching-gadgets
+
+
+### ResourcePacks
+
+To implement as default.
+
+- Added `GregTech: Refreshed`
+- Added `Improved Applied Energistics 2 (ae2, ae 2)`

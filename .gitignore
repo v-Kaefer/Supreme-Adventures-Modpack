@@ -2,3 +2,4 @@
 .github/workflows/check_repeats.yaml
 .github/workflows/main-workflow.yaml
 .github/docs/*
+modslist_review.md

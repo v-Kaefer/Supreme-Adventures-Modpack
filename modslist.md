@@ -1,3 +1,17 @@
+### Interpretation
+
+* TBD : To Be Decided.
+    - These mods are not garanted to be implemented in the modpack.
+
+*The listed categories are not permanent.*
+
+## Methodology:
+
+1 - Gather the main mods stable & latest releases or the community maintained version for the right mc version.
+2 - Gather the sub mods/addons stable & latest release or the community version.
+3 - Identify middle ground for most mods/addons & latest version.
+
+
 ### Added main ModLoader
 * Forge - [Recommended 1.12.2 - 14.23.5.2859](https://files.minecraftforge.net/net/minecraftforge/forge/index_1.12.2.html)
 
@@ -10,10 +24,13 @@
     - Thaumic Energistics Extended Life - [TBD](https://www.curseforge.com/minecraft/mc-mods/thaumic-energistics-extended-life)
     - ExtraCells2 - SamLam140330's Fork - [ExtraCells-1.12.2-2.6.7.jar](https://www.curseforge.com/minecraft/mc-mods/extra-cells-2-samlam140330s-fork/files/3329212)
     - Immersive Cables - [TBD](https://www.curseforge.com/minecraft/mc-mods/immersive-cables)
+    - Mekanism Energistics - [MekanismEnergistics-0.1.4.jar](https://www.curseforge.com/minecraft/mc-mods/mekanism-energistics/files/5408319)
 
 * Mekanism Community Edition - [Mekanism CE 9.12.10 CORE](https://www.curseforge.com/minecraft/mc-mods/mekanism-ce/files/5351260)
     - Mekanism Community Edition: TOOLS - [Mekanism CE 9.12.10 TOOLS](https://www.curseforge.com/minecraft/mc-mods/mekanism-ce-tools/files/5351262)
     - Mekanism Community Edition: GENERATORS - [Mekanism CE 9.12.10 GENERATORS](https://www.curseforge.com/minecraft/mc-mods/mekanism-ce-generators/files/5351261)
+    - Mekanism EcoEnergistics - [[1.12.2]MekanismEcoEnergistics-1.3-1.jar](https://www.curseforge.com/minecraft/mc-mods/mekanismecoenergistics/files/5520201)
+
 
 * Thermal Expansion - [ThermalExpansion-1.12.2-5.5.7.1-universal.jar](https://www.curseforge.com/minecraft/mc-mods/thermal-expansion/files/2926431)
 * Thermal Foundation - [ThermalFoundation-1.12.2-2.6.7.1-universal.jar]()
@@ -41,6 +58,10 @@
     - Thaumic Terminal - [ThaumicTerminal-1.0.12 (TC BETA 26 || AE rv6-stable-6)](https://www.curseforge.com/minecraft/mc-mods/thaumic-terminal/files/2702806)
     - Thaumic Computers - [TBD]()
     - Thaumic Energistics Extended Life - [thaumic-energistics-extended-life-1.12.2-2.3.3.jar](https://www.curseforge.com/minecraft/mc-mods/thaumic-energistics-extended-life/files/5512421)
+    - Thaumic Energistics Extended Life Fork - [TBD](https://www.curseforge.com/minecraft/mc-mods/thaumic-energistics-extended-life-fork)
+
+
+
 
 * Refined Storage - [TBD](https://www.curseforge.com/minecraft/mc-mods/refined-storage/files/2940914)
 * Zombie Awareness - [zombieawareness-1.12.1-1.11.16.jar](https://www.curseforge.com/minecraft/mc-mods/zombie-awareness/files/2663393)
@@ -49,7 +70,6 @@
     - Patchouli - [Patchouli-1.0-23.6.jar](https://www.curseforge.com/minecraft/mc-mods/patchouli/files/3162874)
     - Guide-API - [Guide-API-1.12-2.1.8-63.jar](https://www.curseforge.com/minecraft/mc-mods/guide-api/files/2645992)
 * Reliquary Reincarnations - [Reliquary-1.12.2-1.3.4.796.jar](https://www.curseforge.com/minecraft/mc-mods/reliquary-reincarnations/files/2761319)
-
 * PneumaticCraft: Repressurized - [pneumaticcraft-repressurized-1.12.2-0.11.15-398.jar](https://www.curseforge.com/minecraft/mc-mods/pneumaticcraft-repressurized/files/2978408)
     - ConnectedTexturesMod - [CTM - MC1.12.2-1.0.2.31](https://www.curseforge.com/minecraft/mc-mods/ctm/files/2915363)
 * OpenBlocks Elevator - [ElevatorMod-1.12.2-1.3.14.jar](https://www.curseforge.com/minecraft/mc-mods/openblocks-elevator/files/2845365)
@@ -60,8 +80,15 @@
 * CraftTweaker - [CraftTweaker2-1.12-4.1.20.700.jar](https://www.curseforge.com/minecraft/mc-mods/crafttweaker/files/5486112)
 * GregTech Community Edition - [gregtech-1.12.2-1.17.1.770.jar](https://www.curseforge.com/minecraft/mc-mods/gregtechce/files/3478805) **[REMOVED - REVIEW RELATIONS]**
     - GregTech CE Unofficial - [GregTech: 2.8.10-beta](https://www.curseforge.com/minecraft/mc-mods/gregtech-ce-unofficial/files/5519022) **[REMOVED - REVIEW RELATIONS]**
+    - Gregic Energistics - [TBA](https://www.curseforge.com/minecraft/mc-mods/gregic-energistics)
+    - GregTech Energistics - [TBA](https://www.curseforge.com/minecraft/mc-mods/gregtech-energistics)
+
+
+
 * TerraFirmaCraft - [TBD](https://www.curseforge.com/minecraft/mc-mods/terrafirmacraft)
 * Construct's Armory - [conarm-1.12.2-1.2.5.10.jar](https://www.curseforge.com/minecraft/mc-mods/constructs-armory/files/3174535)
+* Embers Rekindled - [TBD](https://www.curseforge.com/minecraft/mc-mods/embers-rekindled)
+
 
 
 
@@ -89,7 +116,7 @@
 * CoroUtil - [coroutil-1.12.1-1.2.37.jar](https://legacy.curseforge.com/minecraft/mc-mods/coroutil)
 * Baubles - [Baubles-1.12-1.5.2.jar](https://www.curseforge.com/minecraft/mc-mods/baubles/files/2518667)
 * Mantle - [Mantle-1.12-1.3.3.55.jar](https://www.curseforge.com/minecraft/mc-mods/mantle/files/2713386)
-* OpenComputers - [OpenComputers-MC1.12.2-1.8.5+179e1c3.jar](https://www.curseforge.com/minecraft/mc-mods/opencomputers/files/5274236)
+* 
 
 
 ### Added main QoL Mods
@@ -111,7 +138,9 @@
 * Neat - [Neat 1.4-17.jar](https://www.curseforge.com/minecraft/mc-mods/neat/files/2595310)
 * HT's TreeChop - [TreeChop-1.12.2-0.14.7.jar](https://www.curseforge.com/minecraft/mc-mods/treechop/files/3532213)
 * Just Enough Energistics (JEE) - [JustEnoughEnergistics-1.12.2-1.0.8.jar](https://www.curseforge.com/minecraft/mc-mods/just-enough-energistics-jee/files/2783832)
+* OreDictionaryConverter - []()
 * EIORecipesTEInductionSmelter - [eiorteis-3.1.jar](https://www.curseforge.com/minecraft/mc-mods/eiorecipesteinductionsmelter/files/2602660)
+
 
 
 #### Added main QoL Addons
@@ -121,4 +150,5 @@
 ### Added main Performance Mods
 * Phosphor (Forge) - [Phosphor mc1.12.2-0.2.6](https://www.curseforge.com/minecraft/mc-mods/phosphor-forge/files/2747710)
 * Clumps - [Clumps-3.1.2](https://www.curseforge.com/minecraft/mc-mods/clumps/files/2666198)
+* Entity Culling - [EntityCulling-1.12.2-6.4.3.jar](https://www.curseforge.com/minecraft/mc-mods/entity-culling/files/5096144) **[REMOVED - CRASH]**
 

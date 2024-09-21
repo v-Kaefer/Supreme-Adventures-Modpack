@@ -30,7 +30,7 @@
     - Just Enough Reactors - [JustEnoughReactors-1.12.2-1.1.3.61](https://www.curseforge.com/minecraft/mc-mods/just-enough-reactors/files/2671784)
 
 * Thaumcraft - [Thaumcraft-1.12.2-6.1.BETA26.jar](https://www.curseforge.com/minecraft/mc-mods/thaumcraft/files/2629023)
-    - Thaumic Energistics - [(AE2-RV6) Thaumic Energistics 2.2.4](https://www.curseforge.com/minecraft/mc-mods/thaumic-energistics/files/2915506)
+    - Thaumic Energistics - [Superseeded by Thaumic Energistics Extended Life](https://www.curseforge.com/minecraft/mc-mods/thaumic-energistics/files/2915506)
     - Thaumic Inventory Scanning (Thaumcraft Addon) - [Thaumic Inventory Scanning (Thaumcraft Addon)](https://www.curseforge.com/minecraft/mc-mods/thaumcraft-inventory-scanning/files/2559089)
     - Thaumcraft 6 Aspects for JEI - [tc6aspects4jei-0.0.2a.jar](https://www.curseforge.com/minecraft/mc-mods/thaumcraft-6-aspects-for-jei/files/2579495)
     - Thaumcraft Node Tracker - [TBD] (https://www.curseforge.com/minecraft/mc-mods/thaumcraft-node-tracker)
@@ -39,6 +39,8 @@
     - Thaumic JEI - [ThaumicJEI-1.12.2-1.7.0.jar](https://www.curseforge.com/minecraft/mc-mods/thaumic-jei/files/5646810)
     - Thaumic Augmentation - [ThaumicAugmentation-1.12.2-2.1.13.jar](https://www.curseforge.com/minecraft/mc-mods/thaumic-augmentation/files/5129455)
     - Thaumic Terminal - [ThaumicTerminal-1.0.12 (TC BETA 26 || AE rv6-stable-6)](https://www.curseforge.com/minecraft/mc-mods/thaumic-terminal/files/2702806)
+    - Thaumic Computers - [TBD]()
+    - Thaumic Energistics Extended Life - [thaumic-energistics-extended-life-1.12.2-2.3.3.jar](https://www.curseforge.com/minecraft/mc-mods/thaumic-energistics-extended-life/files/5512421)
 
 * Refined Storage - [TBD](https://www.curseforge.com/minecraft/mc-mods/refined-storage/files/2940914)
 * Zombie Awareness - [zombieawareness-1.12.1-1.11.16.jar](https://www.curseforge.com/minecraft/mc-mods/zombie-awareness/files/2663393)
@@ -60,6 +62,7 @@
     - GregTech CE Unofficial - [GregTech: 2.8.10-beta](https://www.curseforge.com/minecraft/mc-mods/gregtech-ce-unofficial/files/5519022) **[REMOVED - REVIEW RELATIONS]**
 * TerraFirmaCraft - [TBD](https://www.curseforge.com/minecraft/mc-mods/terrafirmacraft)
 * Construct's Armory - [conarm-1.12.2-1.2.5.10.jar](https://www.curseforge.com/minecraft/mc-mods/constructs-armory/files/3174535)
+
 
 
 ### Added main Armour Mods

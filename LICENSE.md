@@ -1,5 +1,3 @@
-# License for Supreme Adventures Modpack
-
 Supreme Adventures Modpack © 2024 v-Kaefer. All rights reserved.
 
 The name and all resources, including but not limited to visual and branding assets such as logos, icons, banners, or custom artwork that may be added in the future, are the intellectual property of v-Kaefer.

@@ -10,6 +10,8 @@ Also, i would like to remark that, this modpack is being made for my own studies
 Big shoutout to Pyker from the Technic team, for the great tutorial on [how to create a client modpack](https://www.technicpack.net/article/how-to-create-a-client-modpack.216)!
 
 The modpack is already available in the [Technicpack site & launcher!](https://www.technicpack.net/modpack/supreme-adventures-modpack)
+Added plugin
+zslint
 
 ### Requested Mods and Vote Counts
 
@@ -52,3 +54,9 @@ Modpack,Base Mods,30
 Modpack,Performance Mods,8
 Base Mods,Addons,50
 ```
+
+
+### Hosting
+
+Currently the mod is being hosted in Dropbox (Basic plan), since the Technicpack does not provide hosting for the modpacks.
+Any contribution to this repo will be directed to the hosting of the modpack.

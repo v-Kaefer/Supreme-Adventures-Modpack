@@ -145,6 +145,7 @@
 * Modification Of Critical Hit - [TBD](https://www.curseforge.com/minecraft/mc-mods/modification-of-critical-hit/files/5049063)
 * Artifacts - [TBD](https://www.curseforge.com/minecraft/mc-mods/artifacts)
 * Cooking for Blockheads - [TBD](https://www.curseforge.com/minecraft/mc-mods/cooking-for-blockheads)
+* Shoulder Surfing Reloaded - [TBD](https://www.curseforge.com/minecraft/mc-mods/shoulder-surfing-reloaded)
 
 
 
@@ -160,7 +161,9 @@
 * Bedspreads (Fabric/Forge/Quilt) - [TBD](https://www.curseforge.com/minecraft/mc-mods/bedspreads)
 * CraftPresence - [TBT](https://www.curseforge.com/minecraft/mc-mods/craftpresence)
 * Industrial decor - [TBD](https://www.curseforge.com/minecraft/mc-mods/industrial-decor)
-
+* Charm - [TBD](https://www.curseforge.com/minecraft/mc-mods/charm)
+* Better Animations Collection - [TBT](https://www.curseforge.com/minecraft/mc-mods/better-animations-collection)
+* Item Borders [Neo/Forge] - [TBD](https://www.curseforge.com/minecraft/mc-mods/item-borders)
 
 
 ### Added main World Mods
@@ -172,6 +175,7 @@
 * Heat And Climate - [TBD](https://www.curseforge.com/minecraft/mc-mods/heat-and-climate)
     - Dynamic Trees - Heat and Climate - [](https://www.curseforge.com/minecraft/mc-mods/dynamic-trees-heat-and-climate)
 * TerraFirmaCraft - [TBD](https://www.curseforge.com/minecraft/mc-mods/terrafirmacraft)
+* Better MC [FORGE] - BMC4 - [](https://legacy.curseforge.com/minecraft/modpacks/better-mc-forge-bmc4)
 
 
 ### Added main Required Mods
@@ -183,7 +187,7 @@
 * EnderCore - [EnderCore - 1.12.2-0.5.78](https://www.curseforge.com/minecraft/mc-mods/endercore/files/4671384)
 * BdLib - [BDLib 1.14.4.1 (MC 1.12.2)](https://www.curseforge.com/minecraft/mc-mods/bdlib/files/4675629)
 * ZeroCore - [zerocore-1.12.2-0.1.2.9.jar](https://www.curseforge.com/minecraft/mc-mods/zerocore/files/3194743)
-* MixinBooter - [MixinBooter 9.4](https://www.curseforge.com/minecraft/mc-mods/mixin-booter/files/5739618) **[REMOVED - CRASH]**
+* MixinBooter - [!mixinbooter-9.4](https://www.curseforge.com/minecraft/mc-mods/mixin-booter/files/5739618) **[REMOVED - CRASH]**
 * RenderLib - [RenderLib-1.12.2-1.3.5.jar](https://www.curseforge.com/minecraft/mc-mods/renderlib/files/5421689) **[REMOVED - CRASH]**
 * CoroUtil - [coroutil-1.12.1-1.2.37.jar](https://legacy.curseforge.com/minecraft/mc-mods/coroutil)
 * Baubles - [Baubles-1.12-1.5.2.jar](https://www.curseforge.com/minecraft/mc-mods/baubles/files/2518667)
@@ -234,7 +238,7 @@
 * Phosphor (Forge) - [Phosphor mc1.12.2-0.2.6](https://www.curseforge.com/minecraft/mc-mods/phosphor-forge/files/2747710)
 * Clumps - [Clumps-3.1.2](https://www.curseforge.com/minecraft/mc-mods/clumps/files/2666198)
 * Entity Culling - [EntityCulling-1.12.2-6.4.3.jar](https://www.curseforge.com/minecraft/mc-mods/entity-culling/files/5096144) **[REMOVED - CRASH]**
-* VanillaFix - [TBT](https://www.curseforge.com/minecraft/mc-mods/vanillafix) **[Implement ASAP]**
+* VanillaFix - [VanillaFix 1.0.10-150](https://www.curseforge.com/minecraft/mc-mods/vanillafix) **[Implement ASAP]**
 
 ### Added main Dev Mods
 * Shut Up, Model Loader! - [TBD](https://www.curseforge.com/minecraft/mc-mods/shut-up-model-loader/files/all?page=1&pageSize=20)
@@ -245,4 +249,12 @@
 * Tweaked Petroleum - [TBD](https://www.curseforge.com/minecraft/mc-mods/tweaked-petroleum)
     - Tweaked Petroleum: Gas Addon - [TBD](https://www.curseforge.com/minecraft/mc-mods/tweaked-petroleum-gas-addon)
 
+### Server-side Mods
+* Easy Shulker Access - [](https://www.curseforge.com/minecraft/mc-mods/easy-shulker-access)
+* Lootr (Forge & NeoForge) - [+Client-side](https://www.curseforge.com/minecraft/mc-mods/lootr)
 
+
+### Resource Packs to be Integrated
+* Colored Shulker GUI - [TBT](https://www.curseforge.com/minecraft/texture-packs/colored-shulker-gui)
+* Colourful Containers GUI - [1.16+](https://www.curseforge.com/minecraft/texture-packs/colourful-containers-gui)
+* Whimscape - [?](https://modrinth.com/resourcepack/whimscape/gallery)

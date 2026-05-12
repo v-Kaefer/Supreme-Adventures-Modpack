@@ -1,0 +1,170 @@
+# Ranked Legacy Mod List
+
+Best-effort combined ranking of the mods listed in `modslist_legacy.md`, sorted by public CurseForge download popularity where that was visible, and otherwise by a legacy-popularity fallback.
+
+Mods that appeared in more than one legacy pack are tagged once with their source packs.
+
+## Ranked List
+
+- Applied Energistics 2
+- Sophisticated Backpacks
+- Farmer's Delight
+- Supplementaries
+- Mekanism
+- MineColonies
+- SecurityCraft
+- Draconic Evolution
+- WorldEdit
+- Iron Chests
+- Forestry [Technic SSP, Tekkit Classic]
+- IndustrialCraft 2 [Technic SSP, Tekkit Classic]
+- BuildCraft [Technic SSP, Tekkit Classic]
+- ComputerCraft
+- Equivalent Exchange 2
+- Railcraft
+- EnderStorage
+- Not Enough Items
+- Inventory Tweaks [Technic SSP, Tekkit Classic, ATM9]
+- OptiFine
+- Modular Force Field Projector
+- Modular Force Field System
+- RedPower 2
+- RedPower
+- MineFactory Reloaded [Technic SSP, Tekkit Classic]
+- Additional Pipes [Technic SSP, Tekkit Classic]
+- Advanced Machines [Technic SSP, Tekkit Classic]
+- Compact Solars
+- Charging Bench
+- Ender Chests
+- Ender Tanks
+- FTB Chunks
+- FTB Library
+- Applied Flux
+- Botany Pots
+- Botany Trees
+- EvilCraft
+- Extreme Reactors 2
+- Integrated Dynamics
+- Integrated Terminals
+- Integrated Tunnels
+- Iron's Spells 'n Spellbooks
+- Lootr
+- ModernFix
+- Moonlight
+- Occultism
+- Oculus
+- PneumaticCraft: Repressurized
+- Polymorph
+- Reliquary
+- Sophisticated Core
+- Sophisticated Storage
+- Structurize
+- Style Colonies
+- Tombstone
+- ToolBelt
+- Aquaculture
+- Mekanism Generators
+- Mekanism Tools
+- Better Advancements
+- Eccentric Tome
+- Deeper and Darker
+- Delightful
+- Ars Elemental
+- Balm
+- Baubley Heart Canisters
+- Clean Swing
+- Common Capabilities
+- Connectivity
+- Dank Storage
+- Dark Mode Everywhere
+- ExtendedAE
+- Glassential Renewed
+- GregTech CEu
+- Just Enough Mekanism Multiblocks
+- L_Ender's Cataclysm
+- LDLib
+- LionfishAPI
+- Lithostitched
+- Macaw's Trapdoors
+- Mystical Agradditions
+- Packet Fixer
+- ShetiPhianCore
+- Sodium Options API
+- Theurgy
+- Ad Astra
+- Ad Astra Giselle Addon
+- Structure Compass
+- Angel Ring
+- KubeJS
+- Rhino
+- Just Enough Archaeology
+- No Fly Zone
+- Forbidden and Arcanus
+- Time in a Bottle
+- Iceberg
+- Legendary Tooltips
+- advanced_ae
+- maidensmerrymaking
+- alltheleaks
+- bwncr
+- Minecraft version: 1.20.1
+- Loader: Forge
+- Current main file: All the Mods 9-1.1.1
+- Public pack description: over 400 mods
+- EnderIO
+- Entity Culling
+- Thermal Extra
+- MAtmos
+- Somnia
+- Airship
+- Zeppelin
+- Single Player Commands
+- Steamboat
+- TooManyItems
+- Too Many Items
+- Better Fences
+- Nature Overhaul
+- CraftGuide
+- Elemental Creepers
+- Mo' Creatures
+- More Storage
+- Power Converters [Technic SSP, Tekkit Classic]
+- Redstone Remote
+- Tale of Kingdoms
+- Treecapitator
+- Balkon's WeaponMod [Technic SSP, Tekkit Classic]
+- Wireless Redstone
+- Xie's Farming
+- Xie's Cooking
+- Turret Mod
+- ccSensors
+- Dimensional Anchors
+- Immibis Core
+- IC2 Nuclear Control
+- Rei's Minimap
+- Tubestuff
+- WR-CBE
+- CommandBook
+- Convienient Inventory
+- ChopTree
+- Damn That Done Button
+- Minecart Compat Layer
+- Minecraft Forge
+- ModLoader
+- ModLoaderMp
+- Nether Ores
+- Recipe Helper
+- Tooltip
+- 100% Wrench
+- Equivalent Exchange
+- Millenaire
+- Sky Pirates
+- mAtmos
+
+## Notes
+
+This is a combined deduplicated list, not separate pack lists.
+
+The ordering is best-effort because several legacy projects no longer expose a clean current download count.
+
+Source coverage comes from `Technic SSP`, `Tekkit Classic`, `Tekkit Classic Original Mod List`, and the public ATM9 entries recorded in `modslist_legacy.md`.

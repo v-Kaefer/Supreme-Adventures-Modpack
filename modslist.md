@@ -239,6 +239,7 @@
 * Clumps - [Clumps-3.1.2](https://www.curseforge.com/minecraft/mc-mods/clumps/files/2666198)
 * Entity Culling - [EntityCulling-1.12.2-6.4.3.jar](https://www.curseforge.com/minecraft/mc-mods/entity-culling/files/5096144) **[REMOVED - CRASH]**
 * VanillaFix - [VanillaFix 1.0.10-150](https://www.curseforge.com/minecraft/mc-mods/vanillafix) **[Implement ASAP]**
+* https://www.curseforge.com/minecraft/mc-mods/immediatelyfast
 
 ### Added main Dev Mods
 * Shut Up, Model Loader! - [TBD](https://www.curseforge.com/minecraft/mc-mods/shut-up-model-loader/files/all?page=1&pageSize=20)
